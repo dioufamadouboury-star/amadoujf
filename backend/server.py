@@ -3131,7 +3131,7 @@ def get_email_template(content: str, title: str = "GROUPE YAMA+") -> str:
                         <!-- Header with GROUPE YAMA+ Logo -->
                         <tr>
                             <td style="background: #ffffff; padding: 30px; text-align: center; border-bottom: 1px solid #eee;">
-                                <img src="https://customer-assets.emergentagent.com/job_e6239d43-b0aa-4da9-acc9-7394bc51750f/artifacts/ejzc4vzk_0CA7A224-A371-430F-8856-6F8BE8C1FCDE.png" alt="GROUPE YAMA+" style="max-width: 200px; height: auto;">
+                                <img src="{SITE_URL}/assets/images/logo_yama_full.png" alt="GROUPE YAMA+" style="max-width: 200px; height: auto;">
                             </td>
                         </tr>
                         <!-- Content -->
