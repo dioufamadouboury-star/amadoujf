@@ -1089,93 +1089,147 @@ async def login(credentials: UserLogin, response: Response):
         "token": token
     }
 
+# Google OAuth Configuration - Direct (sans Emergent)
+GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", "966683628684-al8bu5bd9bhp1ftrc0oat9fkua6smpfq.apps.googleusercontent.com")
+GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", "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")
+
+class GoogleCallbackRequest(BaseModel):
+    code: str
+    redirect_uri: str
+
+@api_router.post("/auth/google/callback")
+async def google_oauth_callback(callback_data: GoogleCallbackRequest, response: Response):
+    """Process Google OAuth authorization code and create user session"""
+    
+    try:
+        # Exchange authorization code for tokens
+        async with httpx.AsyncClient() as client:
+            token_response = await client.post(
+                "https://oauth2.googleapis.com/token",
+                data={
+                    "client_id": GOOGLE_CLIENT_ID,
+                    "client_secret": GOOGLE_CLIENT_SECRET,
+                    "code": callback_data.code,
+                    "redirect_uri": callback_data.redirect_uri,
+                    "grant_type": "authorization_code"
+                }
+            )
+            
+            if token_response.status_code != 200:
+                logger.error(f"Google token exchange failed: {token_response.text}")
+                raise HTTPException(status_code=401, detail="Échec de l'authentification Google")
+            
+            tokens = token_response.json()
+            access_token = tokens.get("access_token")
+            
+            if not access_token:
+                raise HTTPException(status_code=401, detail="Token d'accès non reçu")
+            
+            # Get user info from Google
+            userinfo_response = await client.get(
+                "https://www.googleapis.com/oauth2/v2/userinfo",
+                headers={"Authorization": f"Bearer {access_token}"}
+            )
+            
+            if userinfo_response.status_code != 200:
+                logger.error(f"Google userinfo failed: {userinfo_response.text}")
+                raise HTTPException(status_code=401, detail="Impossible de récupérer les informations utilisateur")
+            
+            google_user = userinfo_response.json()
+        
+        email = google_user.get("email")
+        name = google_user.get("name", email.split("@")[0])
+        picture = google_user.get("picture")
+        
+        if not email:
+            raise HTTPException(status_code=400, detail="Email non fourni par Google")
+        
+        # Check if user exists
+        existing_user = await db.users.find_one({"email": email}, {"_id": 0})
+        
+        if existing_user:
+            user_id = existing_user["user_id"]
+            # Update user info
+            await db.users.update_one(
+                {"user_id": user_id},
+                {"$set": {
+                    "name": name,
+                    "picture": picture
+                }}
+            )
+        else:
+            # Create new user
+            user_id = f"user_{uuid.uuid4().hex[:12]}"
+            user_doc = {
+                "user_id": user_id,
+                "email": email,
+                "name": name,
+                "picture": picture,
+                "phone": None,
+                "password": None,
+                "role": "customer",
+                "created_at": datetime.now(timezone.utc).isoformat()
+            }
+            await db.users.insert_one(user_doc)
+        
+        # Create session
+        session_token = f"session_{uuid.uuid4().hex}"
+        expires_at = datetime.now(timezone.utc) + timedelta(days=7)
+        
+        await db.user_sessions.update_one(
+            {"user_id": user_id},
+            {"$set": {
+                "user_id": user_id,
+                "session_token": session_token,
+                "expires_at": expires_at.isoformat(),
+                "created_at": datetime.now(timezone.utc).isoformat()
+            }},
+            upsert=True
+        )
+        
+        response.set_cookie(
+            key="session_token",
+            value=session_token,
+            httponly=True,
+            secure=True,
+            samesite="none",
+            max_age=7 * 24 * 3600,
+            path="/"
+        )
+        
+        user_doc = await db.users.find_one({"user_id": user_id}, {"_id": 0})
+        
+        # Create JWT token for the user
+        jwt_token = create_token(user_id, user_doc["email"])
+        
+        logger.info(f"Google OAuth successful for {email}")
+        
+        return {
+            "user_id": user_id,
+            "email": user_doc["email"],
+            "name": user_doc["name"],
+            "role": user_doc.get("role", "customer"),
+            "picture": user_doc.get("picture"),
+            "token": jwt_token
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Google OAuth error: {str(e)}")
+        raise HTTPException(status_code=500, detail="Erreur lors de l'authentification Google")
+
 @api_router.post("/auth/session")
 async def process_session(request: Request, response: Response):
-    """Process Google OAuth session_id and create user session"""
+    """Legacy endpoint - redirects to Google OAuth callback"""
     body = await request.json()
     session_id = body.get("session_id")
     
     if not session_id:
-        raise HTTPException(status_code=400, detail="session_id requis")
+        raise HTTPException(status_code=400, detail="session_id requis - utilisez /auth/google/callback à la place")
     
-    # Fetch user data from Emergent Auth
-    async with httpx.AsyncClient() as client:
-        auth_response = await client.get(
-            "https://demobackend.emergentagent.com/auth/v1/env/oauth/session-data",
-            headers={"X-Session-ID": session_id}
-        )
-        
-        if auth_response.status_code != 200:
-            raise HTTPException(status_code=401, detail="Session invalide")
-        
-        user_data = auth_response.json()
-    
-    # Check if user exists
-    existing_user = await db.users.find_one({"email": user_data["email"]}, {"_id": 0})
-    
-    if existing_user:
-        user_id = existing_user["user_id"]
-        # Update user info
-        await db.users.update_one(
-            {"user_id": user_id},
-            {"$set": {
-                "name": user_data["name"],
-                "picture": user_data.get("picture")
-            }}
-        )
-    else:
-        # Create new user
-        user_id = f"user_{uuid.uuid4().hex[:12]}"
-        user_doc = {
-            "user_id": user_id,
-            "email": user_data["email"],
-            "name": user_data["name"],
-            "picture": user_data.get("picture"),
-            "phone": None,
-            "password": None,
-            "role": "customer",
-            "created_at": datetime.now(timezone.utc).isoformat()
-        }
-        await db.users.insert_one(user_doc)
-    
-    # Create session
-    session_token = user_data.get("session_token", f"session_{uuid.uuid4().hex}")
-    expires_at = datetime.now(timezone.utc) + timedelta(days=7)
-    
-    await db.user_sessions.update_one(
-        {"user_id": user_id},
-        {"$set": {
-            "user_id": user_id,
-            "session_token": session_token,
-            "expires_at": expires_at.isoformat(),
-            "created_at": datetime.now(timezone.utc).isoformat()
-        }},
-        upsert=True
-    )
-    
-    response.set_cookie(
-        key="session_token",
-        value=session_token,
-        httponly=True,
-        secure=True,
-        samesite="none",
-        max_age=7 * 24 * 3600,
-        path="/"
-    )
-    
-    user_doc = await db.users.find_one({"user_id": user_id}, {"_id": 0})
-    
-    # Create JWT token for the user
-    jwt_token = create_token(user_id, user_doc["email"])
-    
-    return {
-        "user_id": user_id,
-        "email": user_doc["email"],
-        "name": user_doc["name"],
-        "role": user_doc.get("role", "customer"),
-        "picture": user_doc.get("picture"),
-        "token": jwt_token
-    }
+    # This endpoint is deprecated - Google OAuth now uses /auth/google/callback
+    raise HTTPException(status_code=410, detail="Cette méthode d'authentification est obsolète. Veuillez utiliser la connexion Google standard.")
 
 @api_router.get("/auth/me")
 async def get_me(user: User = Depends(require_auth)):
