@@ -211,9 +211,9 @@ export default function Footer() {
                 className="h-8 w-auto object-contain bg-white rounded-lg px-2 py-1"
               />
               <img 
-                src="/assets/images/payment_visa.svg" 
+                src="/assets/images/payment_visa.png" 
                 alt="Visa" 
-                className="h-8 w-auto object-contain bg-white rounded-lg px-2 py-1"
+                className="h-10 w-auto object-contain bg-white rounded-lg px-2 py-1"
               />
               <img 
                 src="/assets/images/payment_mastercard.svg" 
