@@ -5,7 +5,7 @@ import json
 from datetime import datetime
 
 class YAMAPlusAPITester:
-    def __init__(self, base_url="https://agent-env-6f04627b-67bb-42e2-8523-edac9d6ed4f2.preview.emergentagent.com"):
+    def __init__(self, base_url="http://localhost:8001"):
         self.base_url = base_url
         self.token = None
         self.tests_run = 0
