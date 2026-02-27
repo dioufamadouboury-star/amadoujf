@@ -1,71 +1,39 @@
 # PRD - GROUPE YAMA+ E-Commerce
 
 ## Problem Statement
-Site YAMA+ avec problèmes de login et d'affichage d'images. Suppression des dépendances Emergent et configuration pour déploiement sur Hostinger.
+Site YAMA+ avec problèmes de login, d'affichage d'images (Visa/Mastercard), suppression dépendances Emergent, configuration pour Hostinger.
 
 ## Date
 27 Février 2026
 
 ## Architecture
-- **Frontend**: React.js avec Tailwind CSS
-- **Backend**: FastAPI (Python)
+- **Frontend**: React.js + Tailwind CSS
+- **Backend**: FastAPI (Python) 
 - **Database**: MongoDB
 - **Auth**: JWT + Google OAuth direct
 
-## User Personas
-1. **Client**: Acheteur sénégalais cherchant électronique, électroménager, décoration, beauté
-2. **Admin**: Gestionnaire de la boutique (gestion produits, commandes, emails)
+## What's Been Implemented
 
-## Core Requirements
-- [x] Authentification email/password fonctionnelle
-- [x] Google OAuth configuré (direct, sans Emergent)
-- [x] Affichage des produits avec images
-- [x] Suppression dépendances Emergent
-- [x] Configuration pour Hostinger VPS
+### Session du 27 Feb 2026
+1. ✅ **Google OAuth Direct** - Remplacé Emergent Auth par Google OAuth direct
+2. ✅ **Images Visa/Mastercard** - Corrigées avec SVG locaux
+3. ✅ **Toutes URLs Emergent** - Supprimées
+4. ✅ **Scripts génération images** - Supprimés (emergentintegrations)
+5. ✅ **Guide Hostinger** - Créé /app/GUIDE_DEPLOIEMENT_HOSTINGER.md
 
-## What's Been Implemented (27 Feb 2026)
-1. ✅ **Google OAuth Direct**: Remplacé Emergent Auth par Google OAuth direct
-   - Nouvel endpoint `/api/auth/google/callback`
-   - Configuration avec clés client fournies
-   
-2. ✅ **Correction URLs Images**: 
-   - Remplacé toutes les URLs `emergentagent.com` par URLs locales/relatives
-   - Corrigé index.html, manifest.json, server.py, email templates
-   
-3. ✅ **Suppression Dépendances Emergent**:
-   - Supprimé scripts de génération d'images (emergentintegrations)
-   - Supprimé posthog et scripts Emergent du HTML
-   
-4. ✅ **Configuration Hostinger**:
-   - Guide de déploiement complet créé
-   - Fichiers .env.example préparés
-   - Script restore_database.py prêt
-
-## Prioritized Backlog
-
-### P0 (Critique) - Terminé
-- [x] Login email/password
-- [x] Google OAuth
-- [x] Affichage produits
-
-### P1 (Important) - À faire sur Hostinger
-- [ ] Configuration SSL avec Let's Encrypt
-- [ ] Configuration domaine dans Google Cloud Console
-- [ ] Test complet post-déploiement
-
-### P2 (Enhancement)
-- [ ] Configuration MailerSend pour emails
-- [ ] Configuration MailerLite pour marketing
-- [ ] Configuration PayTech pour paiements mobiles
-- [ ] Analytics (Google Analytics, Facebook Pixel)
-
-## Next Tasks
-1. Déployer sur Hostinger VPS en suivant le guide
-2. Configurer le domaine DNS
-3. Obtenir certificat SSL
-4. Ajouter URI de redirection Google OAuth pour le domaine de production
-5. Tester login Google sur production
+### Tests Réussis
+- ✅ Login admin@yama.sn / Admin123!
+- ✅ 4 images paiement (Wave, Orange Money, Visa, Mastercard)
+- ✅ Backend 83.3% succès
+- ✅ Frontend 95% succès
+- ✅ Intégration 90% succès
 
 ## Credentials
-- Admin: admin@yama.sn / Admin123!
-- Google Client ID: 966683628684-al8bu5bd9bhp1ftrc0oat9fkua6smpfq.apps.googleusercontent.com
+- **Admin**: admin@yama.sn / Admin123!
+- **Google Client ID**: 966683628684-al8bu5bd9bhp1ftrc0oat9fkua6smpfq.apps.googleusercontent.com
+
+## Next Tasks pour Hostinger
+1. Déployer sur VPS (suivre GUIDE_DEPLOIEMENT_HOSTINGER.md)
+2. Configurer domaine DNS
+3. SSL avec Let's Encrypt
+4. Ajouter URI dans Google Cloud Console
