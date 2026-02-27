@@ -5,9 +5,8 @@ const AuthContext = createContext(null);
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
-// Emergent Google OAuth Configuration
-const GOOGLE_CLIENT_ID = "648274877715-vgcqjv9hu75o9gr34ob11dsqk4st9qm8.apps.googleusercontent.com";
-const EMERGENT_AUTH_URL = "https://demobackend.emergentagent.com/auth/v1/env/oauth/google";
+// Google OAuth Configuration - Direct (sans Emergent)
+const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || "966683628684-al8bu5bd9bhp1ftrc0oat9fkua6smpfq.apps.googleusercontent.com";
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
@@ -81,18 +80,31 @@ export function AuthProvider({ children }) {
     return userData;
   };
 
-  // Google OAuth Login via Emergent
+  // Google OAuth Login - Direct Implementation
   const loginWithGoogle = () => {
     const currentUrl = window.location.origin;
-    const redirectUrl = `${EMERGENT_AUTH_URL}?client_id=${GOOGLE_CLIENT_ID}&redirect_uri=${encodeURIComponent(currentUrl)}`;
-    window.location.href = redirectUrl;
+    const redirectUri = `${currentUrl}/auth/callback`;
+    const scope = "openid email profile";
+    const responseType = "code";
+    
+    const googleAuthUrl = `https://accounts.google.com/o/oauth2/v2/auth?` +
+      `client_id=${encodeURIComponent(GOOGLE_CLIENT_ID)}` +
+      `&redirect_uri=${encodeURIComponent(redirectUri)}` +
+      `&response_type=${responseType}` +
+      `&scope=${encodeURIComponent(scope)}` +
+      `&access_type=offline` +
+      `&prompt=consent`;
+    
+    window.location.href = googleAuthUrl;
   };
 
-  // Process Google OAuth callback
-  const processGoogleCallback = async (sessionId) => {
+  // Process Google OAuth callback with authorization code
+  const processGoogleCallback = async (code) => {
     try {
-      const response = await axios.post(`${API_URL}/api/auth/session`, {
-        session_id: sessionId
+      const redirectUri = `${window.location.origin}/auth/callback`;
+      const response = await axios.post(`${API_URL}/api/auth/google/callback`, {
+        code: code,
+        redirect_uri: redirectUri
       });
       
       const { token: newToken, ...userData } = response.data;
