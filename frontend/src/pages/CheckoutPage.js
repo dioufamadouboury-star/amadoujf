@@ -72,7 +72,7 @@ const paymentMethods = [
     name: "Carte Bancaire", 
     description: "Visa, Mastercard",
     logos: [
-      "/assets/images/payment_visa.svg",
+      "/assets/images/payment_visa.png",
       "/assets/images/payment_mastercard.svg"
     ],
     infoText: "Paiement sécurisé par carte bancaire via Paytech."
