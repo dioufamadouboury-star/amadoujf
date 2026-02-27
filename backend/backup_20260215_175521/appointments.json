@@ -1,0 +1,23 @@
+[
+  {
+    "appointment_id": "rdv_7b64550d20",
+    "product_id": "prod_mercedes_c300",
+    "product_name": "Mercedes-Benz Classe C 300",
+    "category": "automobile",
+    "customer": {
+      "name": "Amadou ",
+      "email": "amadoubourydiouf@gmail.com",
+      "phone": "778498137"
+    },
+    "preferred_date": "2026-02-06",
+    "preferred_time": "10:00",
+    "message": "",
+    "contact_method": "email",
+    "status": "confirmed",
+    "confirmed_date": "2026-01-20",
+    "confirmed_time": "10:00",
+    "location": "Fass Paillote, Dakar",
+    "created_at": "2026-02-05T16:04:37.628141+00:00",
+    "updated_at": "2026-02-05T18:59:40.440033+00:00"
+  }
+]

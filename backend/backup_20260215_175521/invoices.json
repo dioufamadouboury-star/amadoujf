@@ -1,0 +1,128 @@
+[
+  {
+    "invoice_id": "INV-E89A3766",
+    "invoice_number": "YMP-FAC-2026-001",
+    "partner_id": "PART-C073D456",
+    "invoice_type": "final",
+    "title": "Maintenance mensuelle",
+    "description": null,
+    "items": [
+      {
+        "description": "Maintenance serveur",
+        "quantity": 1.0,
+        "unit_price": 50000.0,
+        "unit": "mois",
+        "discount_percent": 0
+      },
+      {
+        "description": "Support technique",
+        "quantity": 10.0,
+        "unit_price": 5000.0,
+        "unit": "heure",
+        "discount_percent": 0
+      }
+    ],
+    "due_date": "2026-02-28",
+    "notes": null,
+    "payment_terms": "Paiement sous 30 jours",
+    "from_quote_id": null,
+    "subtotal": 100000.0,
+    "total": 100000.0,
+    "amount_paid": 0,
+    "status": "unpaid",
+    "created_at": "2026-02-06T22:44:04.047042+00:00",
+    "updated_at": null,
+    "paid_at": null,
+    "pdf_url": null
+  },
+  {
+    "invoice_id": "INV-CDAE4C8F",
+    "invoice_number": "YMP-FAC-2026-002",
+    "partner_id": "PART-75C10572",
+    "invoice_type": "final",
+    "title": "TEST_Invoice_Email_Test",
+    "description": "Invoice for email testing",
+    "items": [
+      {
+        "description": "Service facturé",
+        "quantity": 1.0,
+        "unit_price": 75000.0,
+        "unit": "forfait",
+        "discount_percent": 0
+      }
+    ],
+    "due_date": null,
+    "notes": null,
+    "payment_terms": "Paiement à réception",
+    "from_quote_id": null,
+    "subtotal": 75000.0,
+    "total": 75000.0,
+    "amount_paid": 0,
+    "status": "unpaid",
+    "created_at": "2026-02-07T00:40:54.936454+00:00",
+    "updated_at": null,
+    "paid_at": null,
+    "pdf_url": null,
+    "last_email_sent_at": "2026-02-07T00:40:55.962962+00:00"
+  },
+  {
+    "invoice_id": "INV-C3DFAED0",
+    "invoice_number": "YMP-FAC-2026-003",
+    "partner_id": "PART-98272425",
+    "invoice_type": "final",
+    "title": "TEST_Invoice_Email_Test",
+    "description": "Invoice for email testing",
+    "items": [
+      {
+        "description": "Service facturé",
+        "quantity": 1.0,
+        "unit_price": 75000.0,
+        "unit": "forfait",
+        "discount_percent": 0
+      }
+    ],
+    "due_date": null,
+    "notes": null,
+    "payment_terms": "Paiement à réception",
+    "from_quote_id": null,
+    "subtotal": 75000.0,
+    "total": 75000.0,
+    "amount_paid": 0,
+    "status": "unpaid",
+    "created_at": "2026-02-07T00:42:10.831599+00:00",
+    "updated_at": null,
+    "paid_at": null,
+    "pdf_url": null,
+    "last_email_sent_at": "2026-02-07T00:42:12.032189+00:00"
+  },
+  {
+    "invoice_id": "INV-9FF857FE",
+    "invoice_number": "YMP-FAC-2026-004",
+    "partner_id": "PART-D94B9AED",
+    "invoice_type": "final",
+    "title": "TEST_Invoice_Email_Test",
+    "description": "Invoice for email testing",
+    "items": [
+      {
+        "description": "Service facturé",
+        "quantity": 1.0,
+        "unit_price": 75000.0,
+        "unit": "forfait",
+        "discount_percent": 0
+      }
+    ],
+    "due_date": null,
+    "notes": null,
+    "payment_terms": "Paiement à réception",
+    "from_quote_id": null,
+    "subtotal": 75000.0,
+    "total": 75000.0,
+    "amount_paid": 0,
+    "status": "unpaid",
+    "created_at": "2026-02-07T00:42:34.534947+00:00",
+    "updated_at": null,
+    "paid_at": null,
+    "pdf_url": null,
+    "last_email_sent_at": "2026-02-07T00:42:35.629479+00:00"
+  }
+]

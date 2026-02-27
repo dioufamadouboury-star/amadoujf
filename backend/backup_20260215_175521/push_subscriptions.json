@@ -1,0 +1,98 @@
+[
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test_9d6d14fcea484a2eb15d6c0fa6f18a78",
+    "created_at": "2026-02-05T18:51:04.114811+00:00",
+    "is_active": true,
+    "keys": {
+      "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+      "auth": "tBHItJI5svbpez7KI4CCXg"
+    },
+    "subscription_id": "push_a7d9a56b6053644f",
+    "user_email": null,
+    "user_id": null
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test_811c1b1aa04f477aaddb937b74b5c9d2",
+    "created_at": "2026-02-05T18:51:04.181185+00:00",
+    "is_active": true,
+    "keys": {
+      "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+      "auth": "tBHItJI5svbpez7KI4CCXg"
+    },
+    "subscription_id": "push_8b2c3fe2369a12ee",
+    "user_email": null,
+    "user_id": null
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test_unsub_db01b107b8fd47e7b8fe1d69d8587d0c",
+    "created_at": "2026-02-05T18:51:04.311394+00:00",
+    "is_active": false,
+    "keys": {
+      "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+      "auth": "tBHItJI5svbpez7KI4CCXg"
+    },
+    "subscription_id": "push_375d36503cdf9851",
+    "user_email": null,
+    "user_id": null
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test_1025dabda0a346a8ac0ae577c9a2b939",
+    "created_at": "2026-02-05T18:51:52.841822+00:00",
+    "is_active": true,
+    "keys": {
+      "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+      "auth": "tBHItJI5svbpez7KI4CCXg"
+    },
+    "subscription_id": "push_e9a3062ad57e2985",
+    "user_email": null,
+    "user_id": null
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test_836b74c569204c1db35d03c5a0256401",
+    "created_at": "2026-02-05T18:51:52.883013+00:00",
+    "is_active": true,
+    "keys": {
+      "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+      "auth": "tBHItJI5svbpez7KI4CCXg"
+    },
+    "subscription_id": "push_8403304174d53481",
+    "user_email": null,
+    "user_id": null
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/test_unsub_044fca9befb24cf6b5f6032cdf45054f",
+    "created_at": "2026-02-05T18:51:53.000006+00:00",
+    "is_active": false,
+    "keys": {
+      "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+      "auth": "tBHItJI5svbpez7KI4CCXg"
+    },
+    "subscription_id": "push_2c34edc741c73cbc",
+    "user_email": null,
+    "user_id": null
+  },
+  {
+    "endpoint": "https://test.push.service/cb581b2c32c949c4b5bcaa8566b11d30",
+    "created_at": "2026-02-05T19:01:13.674468+00:00",
+    "is_active": true,
+    "keys": {
+      "p256dh": "test_p256dh_key",
+      "auth": "test_auth_key"
+    },
+    "subscription_id": "push_fa8cb8cc78e8d41c",
+    "user_email": null,
+    "user_id": null
+  },
+  {
+    "endpoint": "https://test.push.service/785a367ac4ed443fa6a00dfa4776b8d1",
+    "created_at": "2026-02-05T19:01:13.715435+00:00",
+    "is_active": true,
+    "keys": {
+      "p256dh": "test_key",
+      "auth": "test_auth"
+    },
+    "subscription_id": "push_dd131093603ca7df",
+    "user_email": null,
+    "user_id": null
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "review_id": "rev_17d11b706028",
+    "product_id": "prod_iphone15pro",
+    "user_id": "user_a12567020211",
+    "user_name": "Admin YAMA+",
+    "rating": 5,
+    "title": "",
+    "comment": "",
+    "media": [],
+    "helpful_count": 0,
+    "verified_purchase": false,
+    "created_at": "2025-12-30T02:40:55.362333+00:00"
+  },
+  {
+    "review_id": "rev_61fa33e0",
+    "comment": "J'ai reçu mon iPhone très rapidement. La livraison était impeccable et le produit est authentique. Je recommande vivement YAMA+ !",
+    "created_at": "2026-02-01T13:49:57.624674+00:00",
+    "helpful_count": 12,
+    "product_id": "prod_iphone15pro",
+    "rating": 5,
+    "title": "Excellent produit !",
+    "user_id": "user_sample1",
+    "user_name": "Amadou Diallo",
+    "verified_purchase": true
+  },
+  {
+    "review_id": "rev_437cc591",
+    "comment": "Très satisfaite de mon achat. Le MacBook est parfait et l'équipe YAMA+ a été très réactive pour répondre à mes questions. Merci !",
+    "created_at": "2026-02-01T13:49:57.624688+00:00",
+    "helpful_count": 8,
+    "product_id": "prod_macbook_air",
+    "rating": 5,
+    "title": "Service client au top",
+    "user_id": "user_sample2",
+    "user_name": "Fatou Sow",
+    "verified_purchase": true
+  },
+  {
+    "review_id": "rev_8e4500c6",
+    "comment": "Les AirPods sont excellents. Son cristallin et réduction de bruit efficace. Livraison en 24h à Dakar comme promis.",
+    "created_at": "2026-02-01T13:49:57.624697+00:00",
+    "helpful_count": 5,
+    "product_id": "prod_airpods_pro",
+    "rating": 4,
+    "title": "Très bon rapport qualité/prix",
+    "user_id": "user_sample3",
+    "user_name": "Moussa Ndiaye",
+    "verified_purchase": true
+  },
+  {
+    "review_id": "rev_f952cb2f",
+    "comment": "Après avoir comparé plusieurs boutiques, YAMA+ offre les meilleurs prix et un service irréprochable. Mon nouveau téléphone est arrivé en parfait état.",
+    "created_at": "2026-02-01T13:49:57.624702+00:00",
+    "helpful_count": 15,
+    "product_id": "prod_iphone15pro",
+    "rating": 5,
+    "title": "Meilleur site au Sénégal",
+    "user_id": "user_sample4",
+    "user_name": "Aissatou Ba",
+    "verified_purchase": true
+  },
+  {
+    "review_id": "rev_4198344e",
+    "comment": "Ma TV Samsung est magnifique ! L'image est incroyable. L'équipe a même aidé à l'installation. Service 5 étoiles !",
+    "created_at": "2026-02-01T13:49:57.624706+00:00",
+    "helpful_count": 9,
+    "product_id": "prod_samsung_tv",
+    "rating": 5,
+    "title": "Qualité professionnelle",
+    "user_id": "user_sample5",
+    "user_name": "Ibrahima Fall",
+    "verified_purchase": true
+  }
+]

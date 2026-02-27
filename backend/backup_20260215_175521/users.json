@@ -1,0 +1,372 @@
+[
+  {
+    "user_id": "user_1dc6be8833aa",
+    "email": "admin@lumina.sn",
+    "name": "Admin Lumina",
+    "phone": "+221 77 000 00 00",
+    "password": "$2b$12$/ycYhHUg3yrF68wOEjNIHu6wCpDHy/HA/1K6V5lG8arL1RpiHJZ2S",
+    "role": "admin",
+    "picture": null,
+    "created_at": "2025-12-23T04:31:18.126225+00:00"
+  },
+  {
+    "user_id": "user_2771c88dbaf6",
+    "email": "test_043350@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$uVm0gmOdOmVCOmFlsMnyqebpWilegi.YLnmXO3tnrQWcC0lt9KeK6",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-23T04:33:50.347544+00:00"
+  },
+  {
+    "user_id": "user_c4b88cf80bb2",
+    "email": "amadoubourydiouf@gmail.com",
+    "name": "amadou boury diouf",
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocJ2gToktAj3d1py9KNF2NES4DHf2yWqj8jM7jjwyxQOgwqheVg_7A=s96-c",
+    "phone": null,
+    "password": null,
+    "role": "customer",
+    "created_at": "2025-12-23T04:48:15.196830+00:00"
+  },
+  {
+    "user_id": "user_a12567020211",
+    "email": "admin@yama.sn",
+    "name": "Admin YAMA+",
+    "phone": "+221771112233",
+    "password": "$2b$12$WahZAkKLzE3W7GcsVpMlde6gOaHe/TXWc4qvNnlvidgsnYad1pQ4e",
+    "role": "admin",
+    "picture": null,
+    "created_at": "2025-12-23T14:14:20.455542+00:00"
+  },
+  {
+    "user_id": "user_cee42190fcc1",
+    "email": "test_141541@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$W1zk.6Bkc0/Ub8oR9FkIc.Erkc79W73Mr6W2NVn96YETLV9J.D6ey",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-23T14:15:41.726076+00:00"
+  },
+  {
+    "user_id": "user_e44b868c0df4",
+    "email": "test_193337@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$/aM.6ts2lRKDm/vc4zSgMuE7AXgKPbiSH5zIdqPl2QH4Dm83MQTy.",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-23T19:33:37.929385+00:00"
+  },
+  {
+    "user_id": "user_e820cb6a6464",
+    "email": "test_193438@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$DEPWNdolvogvthiWh1.yN.sqEqt22LiAwrZpYMBwqu8RJPszTD9gG",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-23T19:34:39.108510+00:00"
+  },
+  {
+    "user_id": "user_794150162857",
+    "email": "test_195603@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$oI85PjgkxLRhL6WQAa7L2eOFXBmA7blzgbvnzguTg/kKYMBvYfTqq",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-23T19:56:04.082151+00:00"
+  },
+  {
+    "user_id": "user_6a61dd9522c5",
+    "email": "mamebourydiouf3@gmail.com",
+    "name": "Mame Boury Diouf",
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocJEKj2oEuetlE7w9ZgBW2Qu3pC0cDJgWnU0ogJ9N3ZSwQQgEw=s96-c",
+    "phone": null,
+    "password": null,
+    "role": "customer",
+    "created_at": "2025-12-24T03:37:54.301498+00:00"
+  },
+  {
+    "user_id": "user_f2604a1f3231",
+    "email": "test_024054@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$s8sv7wbmwX7Uq1kEJUTEyuTjQmfrJj0o6D3lf36vcLSjQHhEELIzK",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-30T02:40:54.590285+00:00"
+  },
+  {
+    "user_id": "user_8e2d3b5e10a7",
+    "email": "test-abandon@yama.sn",
+    "name": "Test User",
+    "phone": null,
+    "password": "$2b$12$9BtkqHUcMYI.RYn23HsLWu8etO.rwYCITUXrcGpjVBHsW6fdRXQqy",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-30T22:05:35.517537+00:00"
+  },
+  {
+    "user_id": "user_f1021cbf5660",
+    "email": "test_220823@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$CK3hUenmPBL4nEw/qg2zIegqRoN7RrI/NyVBRShZPYD0zqlH9/trG",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2025-12-30T22:08:24.004937+00:00"
+  },
+  {
+    "user_id": "user_cb8a79ca8945",
+    "email": "testuser123@test.com",
+    "name": "Test User",
+    "phone": null,
+    "password": "$2b$12$07UQyooaNQcH9Pyjm3FQ3OQDPX5g.jXVHpFX/ZeoGFdoOhJEabsC6",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-01T14:58:57.599463+00:00"
+  },
+  {
+    "user_id": "user_2ca1a5dc3d10",
+    "email": "jean.dupont.test@gmail.com",
+    "name": "Jean Dupont",
+    "phone": "",
+    "password": "$2b$12$8c95.2Q.UT3d0/b1b9bYV.EQFY74MsteWFrG2CrkZEeKXUuk8.yB.",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-01T14:59:12.734067+00:00"
+  },
+  {
+    "user_id": "user_e4745b2d7c81",
+    "email": "test1769958022@gmail.com",
+    "name": "Marie Test",
+    "phone": "",
+    "password": "$2b$12$B9PSqV8Tv9YsVR/rguyBbeQyKZuuOiS/Ic9M7NiYOhNM0GVeg6hzC",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-01T15:00:22.712726+00:00"
+  },
+  {
+    "user_id": "user_ff3597996218",
+    "email": "test_562f594c@test.com",
+    "name": "Test User",
+    "phone": null,
+    "password": "$2b$12$XoUyJuMygbz4OLyXb8RUL.s0ImAQhRkzaL4/h.e3YpmWpvAnvQq/u",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-04T04:20:36.788812+00:00"
+  },
+  {
+    "user_id": "user_c87de1923310",
+    "email": "test_8118fd6a@test.com",
+    "name": "Test User",
+    "phone": null,
+    "password": "$2b$12$kZE3i52fOtP62PLXBXraGuBQawM6JNHswiECXn4M6WwE7AbRWottK",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-04T04:30:08.514311+00:00"
+  },
+  {
+    "user_id": "user_2660a4a3c211",
+    "email": "test_2612af9e@test.com",
+    "name": "Test User",
+    "phone": null,
+    "password": "$2b$12$Z7wZm35fMVCxd5OHjeTTp.hp4dXdBYtLs8edw1B1Tg5enCJ2URsiW",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-04T04:31:39.303483+00:00"
+  },
+  {
+    "user_id": "user_8d8d7919be92",
+    "email": "test_fd84d8d9@test.com",
+    "name": "Test User",
+    "phone": null,
+    "password": "$2b$12$59unVK7nVZZmrmgxCtcCs.e1SPggR9aEU.BRmyTLxw6TvV6NFLSnS",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-04T04:50:47.048444+00:00"
+  },
+  {
+    "user_id": "user_af92143f70c7",
+    "email": "maisonmah8@gmail.com",
+    "name": "Amadou",
+    "phone": "778498137",
+    "password": "$2b$12$cvtIdm12LBbYAOuAgMDfxeJV8aEXOO0sJNXvzyPHhEHmaMIAZh8su",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-04T23:36:21.020062+00:00"
+  },
+  {
+    "user_id": "user_1190afe9a4cc",
+    "email": "yamauniverselcenter@gmail.com",
+    "name": "Amadou ",
+    "phone": "778498137",
+    "password": "$2b$12$3Bn52/CClgzOfdbXS.MsUOdCHB.HdUEJrE2Zq4WSOVEuQ7KVpvVDa",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-04T23:38:26.211740+00:00"
+  },
+  {
+    "user_id": "user_c2e8e2d9d5db",
+    "email": "test_email_check_1770270820@test.com",
+    "name": "Test User",
+    "phone": "77 123 45 67",
+    "password": "$2b$12$dnxxbBtQu/iatXm54JFUM.kUYMQYPsue3rLHSRvuNajf3FM9ZDgUi",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T05:53:41.275509+00:00"
+  },
+  {
+    "user_id": "user_e14b12617133",
+    "email": "test_user_2_1770270885@test.com",
+    "name": "Test User 2",
+    "phone": "77 123 45 67",
+    "password": "$2b$12$2BXJs2nAaVGGyYjxoucQMOczdWMn0h8N72BRImPZHsV1o.7kxt0cS",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T05:54:46.156092+00:00"
+  },
+  {
+    "user_id": "user_36b37af21866",
+    "email": "test_user_3_1770271000@test.com",
+    "name": "Test User 3",
+    "phone": "77 123 45 67",
+    "password": "$2b$12$R3H7W5Uh2qNoSv4djrCfzu.w.ZBD2wUfC7eNWa07yZhKVyo1p0n0e",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T05:56:41.199321+00:00"
+  },
+  {
+    "user_id": "user_8c34cb138e97",
+    "email": "test_user_1770271068@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$dfOlVULkDx3BjsG83G/qWOnnt1Ipf1Nd7/fPMRj8OfGFSY96l3qui",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T05:57:48.425485+00:00"
+  },
+  {
+    "user_id": "user_964dd8c1fe10",
+    "email": "amadou.diouf@collegecsm.com",
+    "name": "Amadou ",
+    "phone": "775144737",
+    "password": "$2b$12$MgOOU4zzOQlIowBtdt.KN.ULT7HqEruxkkPU4ylHLuwLaq7S5M2RS",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T06:05:01.055045+00:00"
+  },
+  {
+    "user_id": "user_7b78d0a8881b",
+    "email": "test_0a500757@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$o2o47xv29kyzbwNqNGRTfO52XJ1/f0orJVOxfEbAPBcQ8iYwMPmS.",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T15:35:01.264325+00:00"
+  },
+  {
+    "user_id": "user_1001e7acc1c8",
+    "email": "test_12598c48@test.com",
+    "name": "Test User No Phone",
+    "phone": null,
+    "password": "$2b$12$RtIhwWWFIOdD7rmaJNW/s.opfwF5IbzhTJnf6.8hPKNOECIis6F4u",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T15:35:01.541835+00:00"
+  },
+  {
+    "user_id": "user_27a3d4d045b8",
+    "email": "test_444c5723@test.com",
+    "name": "Regular User",
+    "phone": null,
+    "password": "$2b$12$.hmf.KCQzn7GVXi/UUZXruKxlRLhAvesd3Bq7YPSRS63I6LW.WVLK",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T15:35:04.215003+00:00"
+  },
+  {
+    "user_id": "user_de09f87f9e91",
+    "email": "test_b2ba213a@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$/dLyInzo9oFKpsuyRswuyudxTlE7NDBayYA4PZOSboNkNS5WyqXim",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T15:35:27.363337+00:00"
+  },
+  {
+    "user_id": "user_e10639b4bcc1",
+    "email": "test_84c2e935@test.com",
+    "name": "Test User No Phone",
+    "phone": null,
+    "password": "$2b$12$DNFTBvnuaNwCHSemMXnyJOY0WC/fb0k00UHOyxeeAjiESLmmwyRtK",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T15:35:27.624208+00:00"
+  },
+  {
+    "user_id": "user_d7d2965a2966",
+    "email": "test_ebaef37a@test.com",
+    "name": "Regular User",
+    "phone": null,
+    "password": "$2b$12$PitnYMGcZh7K9QpZD7wRB.zZ5DPKKLTAOjTZc.lw3/qqf2q2JwMi2",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T15:35:30.347108+00:00"
+  },
+  {
+    "user_id": "user_3628b3fc3b16",
+    "email": "test_f97b3973@test.com",
+    "name": "Test Profile User",
+    "phone": "+221771234567",
+    "password": "$2b$12$KYvDsIEKN5cOdsXFCNKQyusq3.9e6UZ29.SQS9X/gjzOtDJPmTdJu",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T17:55:16.567955+00:00"
+  },
+  {
+    "user_id": "user_f34163be8691",
+    "email": "test_4b0b79ca@test.com",
+    "name": "Test User",
+    "phone": null,
+    "password": "$2b$12$GbBARiuOdAYz293YYsliW.6AGqcNqc3yk24MXGPlboIy6v8t6N20W",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T18:59:43.009043+00:00"
+  },
+  {
+    "user_id": "user_6a3137fe513c",
+    "email": "test_6a18d3b5@test.com",
+    "name": "Test User",
+    "phone": "+221771234567",
+    "password": "$2b$12$VZpUUDb87dOndZS7CDwogOgSEUdS30ryh1qLH71Hyv5ZUTg7bldUi",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T19:01:11.303388+00:00"
+  },
+  {
+    "user_id": "user_f03b176c36af",
+    "email": "regular_51408ef9@test.com",
+    "name": "Regular User",
+    "phone": null,
+    "password": "$2b$12$/TgkKiA5S1Oj290JUHzQz.WP0Eu40VAD1n7d9/5M5vxqew/FRUsDi",
+    "role": "customer",
+    "picture": null,
+    "created_at": "2026-02-05T19:01:15.909870+00:00"
+  },
+  {
+    "user_id": "user_07cc2c369c2f",
+    "email": "mamadou@example.com",
+    "name": "Mamadou Ndiaye",
+    "phone": null,
+    "password": "$2b$12$ryBCh4BfjvNBkl6zrPZfi.UXdnNFv4eDqhU1MaGy.Y8HkqLpAbJd6",
+    "role": "provider",
+    "picture": null,
+    "created_at": "2026-02-15T17:01:06.551199+00:00"
+  }
+]
