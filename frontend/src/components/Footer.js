@@ -48,7 +48,7 @@ export default function Footer() {
             </p>
             <div className="flex flex-wrap gap-3">
               <a
-                href="https://www.facebook.com/GroupeYamaPlus"
+                href="https://www.facebook.com/share/1N2Pp5ViYG/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-black/5 dark:bg-white/10 rounded-full hover:bg-black/10 dark:hover:bg-white/20 transition-colors"
@@ -57,7 +57,7 @@ export default function Footer() {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://www.instagram.com/groupeyamaplus"
+                href="https://www.instagram.com/groupe_yama_plus?igsh=MWZ0aDJhODN1eW92cA%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-black/5 dark:bg-white/10 rounded-full hover:bg-black/10 dark:hover:bg-white/20 transition-colors"
@@ -66,7 +66,7 @@ export default function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com/GroupeYamaPlus"
+                href="https://x.com/vmvdou_jf?s=21"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-black/5 dark:bg-white/10 rounded-full hover:bg-black/10 dark:hover:bg-white/20 transition-colors"
@@ -75,7 +75,7 @@ export default function Footer() {
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="https://www.tiktok.com/@groupeyamaplus"
+                href="https://www.tiktok.com/@yama_universal_service?_r=1&_t=ZS-94HOwnllb2i"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-black/5 dark:bg-white/10 rounded-full hover:bg-black/10 dark:hover:bg-white/20 transition-colors"
@@ -86,7 +86,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.snapchat.com/add/groupeyamaplus"
+                href="https://snapchat.com/t/0uiVDSZC"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-black/5 dark:bg-white/10 rounded-full hover:bg-black/10 dark:hover:bg-white/20 transition-colors"
