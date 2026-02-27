@@ -9639,6 +9639,7 @@ ALLOWED_ORIGINS = [
     "https://www.groupeyamaplus.com",
     "http://localhost:3000",
     "http://localhost:8001",
+    "https://demobackend.emergentagent.com",
     "*",  # Allow all origins for flexibility during deployment
 ]
 
