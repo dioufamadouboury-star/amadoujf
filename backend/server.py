@@ -7439,8 +7439,8 @@ async def push_send_notification_v2(subscription: dict, title: str, body: str, u
         payload = {
             "title": title,
             "body": body,
-            "icon": icon or "https://customer-assets.emergentagent.com/job_premium-senegal/artifacts/xs5g0hsy_IMG_0613.png",
-            "badge": "https://customer-assets.emergentagent.com/job_premium-senegal/artifacts/xs5g0hsy_IMG_0613.png",
+            "icon": icon or f"{SITE_URL}/assets/images/logo_yama_icon.png",
+            "badge": f"{SITE_URL}/assets/images/logo_yama_icon.png",
             "url": url or SITE_URL,
             "timestamp": datetime.now(timezone.utc).isoformat()
         }
