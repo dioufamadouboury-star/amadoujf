@@ -211,14 +211,14 @@ export default function Footer() {
                 className="h-8 w-auto object-contain bg-white rounded-lg px-2 py-1"
               />
               <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/200px-Visa_Inc._logo.svg.png" 
+                src="/assets/images/payment_visa.svg" 
                 alt="Visa" 
-                className="h-6 w-auto object-contain bg-white rounded-lg px-2 py-1.5"
+                className="h-8 w-auto object-contain bg-white rounded-lg px-2 py-1"
               />
               <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/200px-Mastercard-logo.svg.png" 
+                src="/assets/images/payment_mastercard.svg" 
                 alt="Mastercard" 
-                className="h-6 w-auto object-contain bg-white rounded-lg px-2 py-1.5"
+                className="h-8 w-auto object-contain bg-white rounded-lg px-2 py-1"
               />
             </div>
           </div>
