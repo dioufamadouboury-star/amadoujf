@@ -1376,7 +1376,7 @@ export default function AdminPage() {
           <Menu className="w-6 h-6" />
         </button>
         <img 
-          src="https://customer-assets.emergentagent.com/job_premium-senegal/artifacts/xs5g0hsy_IMG_0613.png" 
+          src="/assets/images/logo_yama_full.png" 
           alt="YAMA+" 
           className="h-10 w-auto"
         />
