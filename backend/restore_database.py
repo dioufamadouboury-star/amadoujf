@@ -1,56 +1,80 @@
 #!/usr/bin/env python3
 """
-GROUPE YAMA+ - Database Restore Script
-Usage: python restore_database.py [backup_file.json]
+Script de restauration de base de données pour GROUPE YAMA+
+Usage: python3 restore_database.py
 """
 
-import asyncio
 import json
-import sys
-import os
+import asyncio
 from motor.motor_asyncio import AsyncIOMotorClient
+import os
 
 # Configuration
-MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://localhost:27017')
-DB_NAME = os.environ.get('DB_NAME', 'yama_marketplace')
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb://localhost:27017")
+DB_NAME = os.environ.get("DB_NAME", "groupeyamaplus")
+BACKUP_FILE = "database_backup.json"
 
-async def restore_database(backup_file='database_backup.json'):
-    """Restore collections from JSON backup"""
+async def restore_database():
+    """Restaure la base de données depuis le fichier de backup"""
     
-    if not os.path.exists(backup_file):
-        print(f"❌ Backup file not found: {backup_file}")
-        return
-    
-    print(f"Loading backup from: {backup_file}")
-    with open(backup_file, 'r', encoding='utf-8') as f:
-        all_data = json.load(f)
-    
-    print(f"Connecting to MongoDB: {MONGO_URL}")
+    print(f"Connexion à MongoDB: {MONGO_URL}")
     client = AsyncIOMotorClient(MONGO_URL)
     db = client[DB_NAME]
     
-    for collection_name, docs in all_data.items():
-        print(f"  Restoring {collection_name}...", end=' ')
-        
-        if len(docs) == 0:
-            print("0 documents (skipped)")
-            continue
-        
-        collection = db[collection_name]
-        
-        # Clear existing data
-        await collection.delete_many({})
-        
-        # Insert backup data
-        if docs:
-            await collection.insert_many(docs)
-        
-        print(f"{len(docs)} documents")
+    # Vérifier si le fichier de backup existe
+    if not os.path.exists(BACKUP_FILE):
+        print(f"Erreur: Fichier de backup '{BACKUP_FILE}' non trouvé")
+        return
     
-    print(f"\n✅ Restore complete to database: {DB_NAME}")
+    # Charger le backup
+    print(f"Chargement du backup depuis {BACKUP_FILE}...")
+    with open(BACKUP_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
     
-    client.close()
+    # Restaurer chaque collection
+    for collection_name, documents in data.items():
+        if documents:
+            # Supprimer la collection existante
+            await db[collection_name].drop()
+            
+            # Insérer les documents
+            await db[collection_name].insert_many(documents)
+            print(f"✓ {collection_name}: {len(documents)} documents restaurés")
+        else:
+            print(f"○ {collection_name}: aucun document")
+    
+    # Créer les index
+    print("\nCréation des index...")
+    
+    # Index utilisateurs
+    await db.users.create_index("email", unique=True)
+    await db.users.create_index("user_id", unique=True)
+    
+    # Index produits
+    await db.products.create_index("product_id", unique=True)
+    await db.products.create_index("category")
+    await db.products.create_index([("name", "text"), ("description", "text")])
+    
+    # Index commandes
+    await db.orders.create_index("order_id", unique=True)
+    await db.orders.create_index("user_id")
+    await db.orders.create_index("created_at")
+    
+    # Index sessions
+    await db.user_sessions.create_index("session_token", unique=True)
+    await db.user_sessions.create_index("user_id")
+    
+    print("✓ Index créés")
+    
+    print("\n" + "="*50)
+    print("Base de données restaurée avec succès!")
+    print("="*50)
+    
+    # Afficher un résumé
+    print("\nRésumé:")
+    for collection_name in data.keys():
+        count = await db[collection_name].count_documents({})
+        print(f"  - {collection_name}: {count} documents")
 
-if __name__ == '__main__':
-    backup_file = sys.argv[1] if len(sys.argv) > 1 else 'database_backup.json'
-    asyncio.run(restore_database(backup_file))
+if __name__ == "__main__":
+    asyncio.run(restore_database())
