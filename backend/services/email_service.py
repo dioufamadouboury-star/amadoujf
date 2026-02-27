@@ -50,7 +50,7 @@ def get_email_template(content: str, title: str = "Notification") -> str:
         <div style="max-width: 600px; margin: 0 auto; padding: 40px 20px;">
             <!-- Logo Header -->
             <div style="text-align: center; margin-bottom: 32px;">
-                <img src="https://customer-assets.emergentagent.com/job_premium-senegal/artifacts/xs5g0hsy_IMG_0613.png" alt="YAMA+" style="height: 60px; width: auto;">
+                <img src="{site_url}/assets/images/logo_yama_full.png" alt="YAMA+" style="height: 60px; width: auto;">
                 <p style="margin: 8px 0 0 0; color: #666; font-size: 14px;">Votre partenaire au quotidien</p>
             </div>
             
