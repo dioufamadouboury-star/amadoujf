@@ -16,23 +16,45 @@ export default function AuthCallback() {
 
     const processAuth = async () => {
       try {
-        // Extract session_id from URL hash
-        const hash = location.hash;
-        const params = new URLSearchParams(hash.replace("#", ""));
-        const sessionId = params.get("session_id");
+        // Extract code from URL query params (Google OAuth callback)
+        const params = new URLSearchParams(location.search);
+        const code = params.get("code");
+        const error = params.get("error");
 
-        if (!sessionId) {
-          toast.error("Session invalide");
+        if (error) {
+          toast.error("Connexion annulée");
           navigate("/login", { replace: true });
           return;
         }
 
-        // Process the session
-        const user = await processGoogleCallback(sessionId);
+        if (!code) {
+          // Try legacy hash-based session_id for backward compatibility
+          const hash = location.hash;
+          const hashParams = new URLSearchParams(hash.replace("#", ""));
+          const sessionId = hashParams.get("session_id");
+          
+          if (!sessionId) {
+            toast.error("Session invalide");
+            navigate("/login", { replace: true });
+            return;
+          }
+          
+          // Legacy flow - shouldn't happen anymore
+          toast.error("Méthode d'authentification obsolète");
+          navigate("/login", { replace: true });
+          return;
+        }
+
+        // Process the Google OAuth authorization code
+        const user = await processGoogleCallback(code);
         toast.success(`Bienvenue, ${user.name} !`);
         
-        // Redirect to home or previous page
-        navigate("/", { replace: true, state: { user } });
+        // Redirect admin to admin dashboard, others to home
+        if (user?.role === "admin") {
+          navigate("/admin", { replace: true });
+        } else {
+          navigate("/", { replace: true, state: { user } });
+        }
       } catch (error) {
         console.error("Auth callback error:", error);
         toast.error("Erreur lors de la connexion");
@@ -41,7 +63,7 @@ export default function AuthCallback() {
     };
 
     processAuth();
-  }, [location.hash, navigate, processGoogleCallback]);
+  }, [location.search, location.hash, navigate, processGoogleCallback]);
 
   return (
     <main className="min-h-screen flex items-center justify-center bg-[#F5F5F7] dark:bg-[#0B0B0B]">
