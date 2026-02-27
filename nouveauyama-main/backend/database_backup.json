@@ -1,0 +1,3873 @@
+{
+  "users": [
+    {
+      "user_id": "user_1dc6be8833aa",
+      "email": "admin@lumina.sn",
+      "name": "Admin Lumina",
+      "phone": "+221 77 000 00 00",
+      "password": "$2b$12$/ycYhHUg3yrF68wOEjNIHu6wCpDHy/HA/1K6V5lG8arL1RpiHJZ2S",
+      "role": "admin",
+      "picture": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "user_id": "user_2771c88dbaf6",
+      "email": "test_043350@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$uVm0gmOdOmVCOmFlsMnyqebpWilegi.YLnmXO3tnrQWcC0lt9KeK6",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-23T04:33:50.347544+00:00"
+    },
+    {
+      "user_id": "user_c4b88cf80bb2",
+      "email": "amadoubourydiouf@gmail.com",
+      "name": "amadou boury diouf",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocJ2gToktAj3d1py9KNF2NES4DHf2yWqj8jM7jjwyxQOgwqheVg_7A=s96-c",
+      "phone": null,
+      "password": null,
+      "role": "customer",
+      "created_at": "2025-12-23T04:48:15.196830+00:00"
+    },
+    {
+      "user_id": "user_a12567020211",
+      "email": "admin@yama.sn",
+      "name": "Admin YAMA+",
+      "phone": "+221771112233",
+      "password": "$2b$12$WahZAkKLzE3W7GcsVpMlde6gOaHe/TXWc4qvNnlvidgsnYad1pQ4e",
+      "role": "admin",
+      "picture": null,
+      "created_at": "2025-12-23T14:14:20.455542+00:00"
+    },
+    {
+      "user_id": "user_cee42190fcc1",
+      "email": "test_141541@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$W1zk.6Bkc0/Ub8oR9FkIc.Erkc79W73Mr6W2NVn96YETLV9J.D6ey",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-23T14:15:41.726076+00:00"
+    },
+    {
+      "user_id": "user_e44b868c0df4",
+      "email": "test_193337@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$/aM.6ts2lRKDm/vc4zSgMuE7AXgKPbiSH5zIdqPl2QH4Dm83MQTy.",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-23T19:33:37.929385+00:00"
+    },
+    {
+      "user_id": "user_e820cb6a6464",
+      "email": "test_193438@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$DEPWNdolvogvthiWh1.yN.sqEqt22LiAwrZpYMBwqu8RJPszTD9gG",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-23T19:34:39.108510+00:00"
+    },
+    {
+      "user_id": "user_794150162857",
+      "email": "test_195603@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$oI85PjgkxLRhL6WQAa7L2eOFXBmA7blzgbvnzguTg/kKYMBvYfTqq",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-23T19:56:04.082151+00:00"
+    },
+    {
+      "user_id": "user_6a61dd9522c5",
+      "email": "mamebourydiouf3@gmail.com",
+      "name": "Mame Boury Diouf",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocJEKj2oEuetlE7w9ZgBW2Qu3pC0cDJgWnU0ogJ9N3ZSwQQgEw=s96-c",
+      "phone": null,
+      "password": null,
+      "role": "customer",
+      "created_at": "2025-12-24T03:37:54.301498+00:00"
+    },
+    {
+      "user_id": "user_f2604a1f3231",
+      "email": "test_024054@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$s8sv7wbmwX7Uq1kEJUTEyuTjQmfrJj0o6D3lf36vcLSjQHhEELIzK",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-30T02:40:54.590285+00:00"
+    },
+    {
+      "user_id": "user_8e2d3b5e10a7",
+      "email": "test-abandon@yama.sn",
+      "name": "Test User",
+      "phone": null,
+      "password": "$2b$12$9BtkqHUcMYI.RYn23HsLWu8etO.rwYCITUXrcGpjVBHsW6fdRXQqy",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-30T22:05:35.517537+00:00"
+    },
+    {
+      "user_id": "user_f1021cbf5660",
+      "email": "test_220823@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$CK3hUenmPBL4nEw/qg2zIegqRoN7RrI/NyVBRShZPYD0zqlH9/trG",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-30T22:08:24.004937+00:00"
+    },
+    {
+      "user_id": "user_cb8a79ca8945",
+      "email": "testuser123@test.com",
+      "name": "Test User",
+      "phone": null,
+      "password": "$2b$12$07UQyooaNQcH9Pyjm3FQ3OQDPX5g.jXVHpFX/ZeoGFdoOhJEabsC6",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-01T14:58:57.599463+00:00"
+    },
+    {
+      "user_id": "user_2ca1a5dc3d10",
+      "email": "jean.dupont.test@gmail.com",
+      "name": "Jean Dupont",
+      "phone": "",
+      "password": "$2b$12$8c95.2Q.UT3d0/b1b9bYV.EQFY74MsteWFrG2CrkZEeKXUuk8.yB.",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-01T14:59:12.734067+00:00"
+    },
+    {
+      "user_id": "user_e4745b2d7c81",
+      "email": "test1769958022@gmail.com",
+      "name": "Marie Test",
+      "phone": "",
+      "password": "$2b$12$B9PSqV8Tv9YsVR/rguyBbeQyKZuuOiS/Ic9M7NiYOhNM0GVeg6hzC",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-01T15:00:22.712726+00:00"
+    },
+    {
+      "user_id": "user_ff3597996218",
+      "email": "test_562f594c@test.com",
+      "name": "Test User",
+      "phone": null,
+      "password": "$2b$12$XoUyJuMygbz4OLyXb8RUL.s0ImAQhRkzaL4/h.e3YpmWpvAnvQq/u",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-04T04:20:36.788812+00:00"
+    },
+    {
+      "user_id": "user_c87de1923310",
+      "email": "test_8118fd6a@test.com",
+      "name": "Test User",
+      "phone": null,
+      "password": "$2b$12$kZE3i52fOtP62PLXBXraGuBQawM6JNHswiECXn4M6WwE7AbRWottK",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-04T04:30:08.514311+00:00"
+    },
+    {
+      "user_id": "user_2660a4a3c211",
+      "email": "test_2612af9e@test.com",
+      "name": "Test User",
+      "phone": null,
+      "password": "$2b$12$Z7wZm35fMVCxd5OHjeTTp.hp4dXdBYtLs8edw1B1Tg5enCJ2URsiW",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-04T04:31:39.303483+00:00"
+    },
+    {
+      "user_id": "user_8d8d7919be92",
+      "email": "test_fd84d8d9@test.com",
+      "name": "Test User",
+      "phone": null,
+      "password": "$2b$12$59unVK7nVZZmrmgxCtcCs.e1SPggR9aEU.BRmyTLxw6TvV6NFLSnS",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-04T04:50:47.048444+00:00"
+    },
+    {
+      "user_id": "user_af92143f70c7",
+      "email": "maisonmah8@gmail.com",
+      "name": "Amadou",
+      "phone": "778498137",
+      "password": "$2b$12$cvtIdm12LBbYAOuAgMDfxeJV8aEXOO0sJNXvzyPHhEHmaMIAZh8su",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-04T23:36:21.020062+00:00"
+    },
+    {
+      "user_id": "user_1190afe9a4cc",
+      "email": "yamauniverselcenter@gmail.com",
+      "name": "Amadou ",
+      "phone": "778498137",
+      "password": "$2b$12$3Bn52/CClgzOfdbXS.MsUOdCHB.HdUEJrE2Zq4WSOVEuQ7KVpvVDa",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-04T23:38:26.211740+00:00"
+    },
+    {
+      "user_id": "user_c2e8e2d9d5db",
+      "email": "test_email_check_1770270820@test.com",
+      "name": "Test User",
+      "phone": "77 123 45 67",
+      "password": "$2b$12$dnxxbBtQu/iatXm54JFUM.kUYMQYPsue3rLHSRvuNajf3FM9ZDgUi",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T05:53:41.275509+00:00"
+    },
+    {
+      "user_id": "user_e14b12617133",
+      "email": "test_user_2_1770270885@test.com",
+      "name": "Test User 2",
+      "phone": "77 123 45 67",
+      "password": "$2b$12$2BXJs2nAaVGGyYjxoucQMOczdWMn0h8N72BRImPZHsV1o.7kxt0cS",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T05:54:46.156092+00:00"
+    },
+    {
+      "user_id": "user_36b37af21866",
+      "email": "test_user_3_1770271000@test.com",
+      "name": "Test User 3",
+      "phone": "77 123 45 67",
+      "password": "$2b$12$R3H7W5Uh2qNoSv4djrCfzu.w.ZBD2wUfC7eNWa07yZhKVyo1p0n0e",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T05:56:41.199321+00:00"
+    },
+    {
+      "user_id": "user_8c34cb138e97",
+      "email": "test_user_1770271068@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$dfOlVULkDx3BjsG83G/qWOnnt1Ipf1Nd7/fPMRj8OfGFSY96l3qui",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T05:57:48.425485+00:00"
+    },
+    {
+      "user_id": "user_964dd8c1fe10",
+      "email": "amadou.diouf@collegecsm.com",
+      "name": "Amadou ",
+      "phone": "775144737",
+      "password": "$2b$12$MgOOU4zzOQlIowBtdt.KN.ULT7HqEruxkkPU4ylHLuwLaq7S5M2RS",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T06:05:01.055045+00:00"
+    },
+    {
+      "user_id": "user_7b78d0a8881b",
+      "email": "test_0a500757@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$o2o47xv29kyzbwNqNGRTfO52XJ1/f0orJVOxfEbAPBcQ8iYwMPmS.",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T15:35:01.264325+00:00"
+    },
+    {
+      "user_id": "user_1001e7acc1c8",
+      "email": "test_12598c48@test.com",
+      "name": "Test User No Phone",
+      "phone": null,
+      "password": "$2b$12$RtIhwWWFIOdD7rmaJNW/s.opfwF5IbzhTJnf6.8hPKNOECIis6F4u",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T15:35:01.541835+00:00"
+    },
+    {
+      "user_id": "user_27a3d4d045b8",
+      "email": "test_444c5723@test.com",
+      "name": "Regular User",
+      "phone": null,
+      "password": "$2b$12$.hmf.KCQzn7GVXi/UUZXruKxlRLhAvesd3Bq7YPSRS63I6LW.WVLK",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T15:35:04.215003+00:00"
+    },
+    {
+      "user_id": "user_de09f87f9e91",
+      "email": "test_b2ba213a@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$/dLyInzo9oFKpsuyRswuyudxTlE7NDBayYA4PZOSboNkNS5WyqXim",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T15:35:27.363337+00:00"
+    },
+    {
+      "user_id": "user_e10639b4bcc1",
+      "email": "test_84c2e935@test.com",
+      "name": "Test User No Phone",
+      "phone": null,
+      "password": "$2b$12$DNFTBvnuaNwCHSemMXnyJOY0WC/fb0k00UHOyxeeAjiESLmmwyRtK",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T15:35:27.624208+00:00"
+    },
+    {
+      "user_id": "user_d7d2965a2966",
+      "email": "test_ebaef37a@test.com",
+      "name": "Regular User",
+      "phone": null,
+      "password": "$2b$12$PitnYMGcZh7K9QpZD7wRB.zZ5DPKKLTAOjTZc.lw3/qqf2q2JwMi2",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T15:35:30.347108+00:00"
+    },
+    {
+      "user_id": "user_3628b3fc3b16",
+      "email": "test_f97b3973@test.com",
+      "name": "Test Profile User",
+      "phone": "+221771234567",
+      "password": "$2b$12$KYvDsIEKN5cOdsXFCNKQyusq3.9e6UZ29.SQS9X/gjzOtDJPmTdJu",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T17:55:16.567955+00:00"
+    },
+    {
+      "user_id": "user_f34163be8691",
+      "email": "test_4b0b79ca@test.com",
+      "name": "Test User",
+      "phone": null,
+      "password": "$2b$12$GbBARiuOdAYz293YYsliW.6AGqcNqc3yk24MXGPlboIy6v8t6N20W",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T18:59:43.009043+00:00"
+    },
+    {
+      "user_id": "user_6a3137fe513c",
+      "email": "test_6a18d3b5@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$VZpUUDb87dOndZS7CDwogOgSEUdS30ryh1qLH71Hyv5ZUTg7bldUi",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T19:01:11.303388+00:00"
+    },
+    {
+      "user_id": "user_f03b176c36af",
+      "email": "regular_51408ef9@test.com",
+      "name": "Regular User",
+      "phone": null,
+      "password": "$2b$12$/TgkKiA5S1Oj290JUHzQz.WP0Eu40VAD1n7d9/5M5vxqew/FRUsDi",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2026-02-05T19:01:15.909870+00:00"
+    },
+    {
+      "user_id": "user_07cc2c369c2f",
+      "email": "mamadou@example.com",
+      "name": "Mamadou Ndiaye",
+      "phone": null,
+      "password": "$2b$12$ryBCh4BfjvNBkl6zrPZfi.UXdnNFv4eDqhU1MaGy.Y8HkqLpAbJd6",
+      "role": "provider",
+      "picture": null,
+      "created_at": "2026-02-15T17:01:06.551199+00:00"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "prod_iphone15pro",
+      "name": "iPhone 15 Pro Max",
+      "description": "Le smartphone le plus avancé. Puce A17 Pro, système de caméra révolutionnaire, design en titane. Une puissance inégalée pour créer, jouer et travailler.",
+      "short_description": "Puce A17 Pro. Titane. Caméra 48MP.",
+      "price": 1299000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": "smartphones",
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800"
+      ],
+      "stock": 7,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:43:10.947380+00:00",
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "brand": "Apple",
+      "colors": [
+        "Noir",
+        "Blanc",
+        "Or"
+      ],
+      "sizes": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "variants": null
+    },
+    {
+      "product_id": "prod_macbook_air",
+      "name": "MacBook Air M3",
+      "description": "Fin. Léger. Puissant.",
+      "short_description": "Puce M3. 18h autonomie.",
+      "price": 1149000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      ],
+      "stock": 2,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:42:09.204946+00:00",
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "brand": "Apple",
+      "colors": [
+        "Argent",
+        "Gris",
+        "Or"
+      ],
+      "sizes": [
+        "256GB",
+        "512GB"
+      ],
+      "variants": null
+    },
+    {
+      "product_id": "prod_airpods_pro",
+      "name": "AirPods Pro 2",
+      "description": "Son immersif.",
+      "short_description": "ANC. Audio Spatial.",
+      "price": 189000,
+      "original_price": 219000,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+      ],
+      "stock": 29,
+      "featured": true,
+      "is_new": false,
+      "is_promo": true,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:42:09.256284+00:00",
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "brand": "Apple",
+      "colors": [
+        "Blanc"
+      ],
+      "sizes": null,
+      "variants": null
+    },
+    {
+      "product_id": "prod_samsung_tv",
+      "name": "Samsung Neo QLED 65\"",
+      "description": "Experience visuelle extraordinaire.",
+      "short_description": "4K. 120Hz. HDR10+.",
+      "price": 1599000,
+      "original_price": 1899000,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800"
+      ],
+      "stock": 5,
+      "featured": true,
+      "is_new": false,
+      "is_promo": true,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:42:09.306566+00:00",
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "brand": "Samsung",
+      "colors": [
+        "Noir"
+      ],
+      "sizes": null,
+      "variants": null
+    },
+    {
+      "product_id": "prod_galaxy_watch",
+      "name": "Galaxy Watch 6 Classic",
+      "description": "La montre connectée premium.",
+      "short_description": "Lunette rotative. Suivi santé.",
+      "price": 279000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800"
+      ],
+      "stock": 18,
+      "featured": false,
+      "is_new": true,
+      "is_promo": false,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:42:09.355547+00:00",
+      "brand": "Samsung",
+      "colors": [
+        "Noir",
+        "Argent"
+      ],
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "sizes": [
+        "43mm",
+        "47mm"
+      ],
+      "variants": null
+    },
+    {
+      "product_id": "prod_dyson_v15",
+      "name": "Dyson V15 Detect",
+      "description": "Aspirateur intelligent.",
+      "short_description": "Laser. 60min. Sans fil.",
+      "price": 549000,
+      "original_price": null,
+      "category": "electromenager",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800"
+      ],
+      "stock": 12,
+      "featured": true,
+      "is_new": false,
+      "is_promo": false,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:42:21.845921+00:00",
+      "brand": "Dyson",
+      "colors": [
+        "Gris",
+        "Or"
+      ],
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "sizes": null,
+      "variants": null
+    },
+    {
+      "product_id": "prod_nespresso",
+      "name": "Nespresso Vertuo Next",
+      "description": "Le café parfait.",
+      "short_description": "Centrifusion. 5 tailles.",
+      "price": 119000,
+      "original_price": 149000,
+      "category": "electromenager",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800"
+      ],
+      "stock": 25,
+      "featured": false,
+      "is_new": false,
+      "is_promo": true,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:42:21.902539+00:00",
+      "brand": "Nespresso",
+      "colors": [
+        "Noir",
+        "Blanc",
+        "Rouge"
+      ],
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "sizes": null,
+      "variants": null
+    },
+    {
+      "product_id": "prod_samsung_fridge",
+      "name": "Samsung Family Hub",
+      "description": "Réfrigérateur connecté.",
+      "short_description": "Écran 21 pouces. WiFi.",
+      "price": 2499000,
+      "original_price": null,
+      "category": "electromenager",
+      "subcategory": null,
+      "images": [
+        "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?w=800"
+      ],
+      "stock": 3,
+      "featured": true,
+      "is_new": false,
+      "is_promo": false,
+      "specs": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2026-02-02T19:42:21.959194+00:00",
+      "brand": "Samsung",
+      "colors": [
+        "Noir",
+        "Argent"
+      ],
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "is_flash_sale": false,
+      "sizes": null,
+      "variants": null
+    },
+    {
+      "product_id": "prod_airfryer",
+      "name": "Philips Airfryer XXL",
+      "description": "Cuisinez sain sans compromis. Technologie Twin TurboStar, grande capacité, résultats croustillants. Le plaisir de la friture sans huile.",
+      "short_description": "XXL. 90% moins de graisse.",
+      "price": 159000,
+      "original_price": null,
+      "category": "electromenager",
+      "subcategory": "cuisine",
+      "images": [
+        "https://images.unsplash.com/photo-1648145765181-2e5ccaee0ad2?w=800"
+      ],
+      "stock": 18,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "capacity": "1.4kg",
+        "power": "2225W",
+        "programs": "5"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_sofa_scandinave",
+      "name": "Canapé Oslo 3 Places",
+      "description": "L'élégance scandinave. Lignes épurées, confort optimal, pieds en bois massif. Un classique intemporel pour votre salon.",
+      "short_description": "Design scandinave. Tissu premium.",
+      "price": 459000,
+      "original_price": 549000,
+      "category": "decoration",
+      "subcategory": "canapes",
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800"
+      ],
+      "stock": 6,
+      "featured": true,
+      "is_new": false,
+      "is_promo": true,
+      "specs": {
+        "seats": "3",
+        "material": "Tissu",
+        "color": "Gris"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_lampe_arc",
+      "name": "Lampe Arc Design",
+      "description": "Lumière sculpturale. Arc élégant en acier brossé, base marbre, éclairage d'ambiance. Une pièce maîtresse pour votre intérieur.",
+      "short_description": "Arc 180cm. Base marbre.",
+      "price": 189000,
+      "original_price": null,
+      "category": "decoration",
+      "subcategory": "luminaires",
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800"
+      ],
+      "stock": 10,
+      "featured": false,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "height": "180cm",
+        "material": "Acier/Marbre",
+        "bulb": "E27"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_table_basse",
+      "name": "Table Basse Minimaliste",
+      "description": "Simplicité raffinée. Plateau en verre trempé, structure en chêne massif, design épuré. L'essentiel, magnifié.",
+      "short_description": "Verre & chêne. 120x60cm.",
+      "price": 279000,
+      "original_price": null,
+      "category": "decoration",
+      "subcategory": "tables",
+      "images": [
+        "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?w=800"
+      ],
+      "stock": 8,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "dimensions": "120x60x40cm",
+        "material": "Verre/Chêne"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_dyson_airwrap",
+      "name": "Dyson Airwrap Complete",
+      "description": "Coiffure réinventée. Effet Coanda pour des boucles et du volume sans chaleur extrême. Tous les styles, zéro dommage.",
+      "short_description": "Effet Coanda. 6 accessoires.",
+      "price": 449000,
+      "original_price": null,
+      "category": "beaute",
+      "subcategory": "cheveux",
+      "images": [
+        "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=800"
+      ],
+      "stock": 14,
+      "featured": true,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "attachments": "6",
+        "heat": "150°C max",
+        "voltage": "220V"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_serum_visage",
+      "name": "Sérum Éclat Vitamine C",
+      "description": "Révélez votre éclat. Vitamine C stabilisée 15%, acide hyaluronique, antioxydants. Une peau lumineuse et protégée.",
+      "short_description": "Vitamine C 15%. Anti-âge.",
+      "price": 45000,
+      "original_price": 55000,
+      "category": "beaute",
+      "subcategory": "soins",
+      "images": [
+        "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?w=800"
+      ],
+      "stock": 39,
+      "featured": false,
+      "is_new": true,
+      "is_promo": true,
+      "specs": {
+        "volume": "30ml",
+        "key_ingredient": "Vitamine C 15%"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_massage_gun",
+      "name": "Pistolet Massage Theragun",
+      "description": "Récupération professionnelle. Thérapie percussive puissante, 6 têtes interchangeables, application connectée. Soulagez vos muscles en profondeur.",
+      "short_description": "2400 percussions/min. 6 têtes.",
+      "price": 299000,
+      "original_price": null,
+      "category": "beaute",
+      "subcategory": "massage",
+      "images": [
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800"
+      ],
+      "stock": 16,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "speed": "2400rpm",
+        "battery": "150min",
+        "noise": "Silencieux"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_parfum_luxe",
+      "name": "Eau de Parfum Prestige",
+      "description": "Signature olfactive. Notes de bergamote, jasmin et bois de santal. Une fragrance raffinée qui laisse une empreinte mémorable.",
+      "short_description": "100ml. Unisexe. Premium.",
+      "price": 129000,
+      "original_price": null,
+      "category": "beaute",
+      "subcategory": "parfums",
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
+      ],
+      "stock": 22,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "volume": "100ml",
+        "type": "Eau de Parfum",
+        "gender": "Unisexe"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_mercedes_c300",
+      "name": "Mercedes-Benz Classe C 300",
+      "description": "La Mercedes-Benz Classe C 300 incarne l'élégance et la performance. Moteur 2.0L turbo, intérieur luxueux en cuir, système MBUX de dernière génération.",
+      "short_description": "Berline de luxe allemande",
+      "price": 45000000,
+      "original_price": 48000000,
+      "category": "automobile",
+      "subcategory": "berlines",
+      "images": [
+        "https://customer-assets.emergentagent.com/job_yama-market-1/artifacts/8g6b1p4r_E6A78E3A-E6D7-4CC2-AB1C-95D5689D1734.png",
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800"
+      ],
+      "stock": 3,
+      "featured": true,
+      "is_new": true,
+      "is_promo": true,
+      "specs": {
+        "Moteur": "2.0L Turbo 4 cylindres",
+        "Puissance": "258 ch",
+        "Transmission": "Automatique 9G-TRONIC",
+        "Carburant": "Essence"
+      },
+      "created_at": "2026-02-01T17:23:43.996433+00:00",
+      "updated_at": "2026-02-01T17:23:43.996443+00:00"
+    },
+    {
+      "product_id": "prod_toyota_landcruiser",
+      "name": "Toyota Land Cruiser V8",
+      "description": "Le légendaire Toyota Land Cruiser V8, symbole de robustesse et de fiabilité. Parfait pour les routes africaines, capacité tout-terrain exceptionnelle.",
+      "short_description": "SUV tout-terrain légendaire",
+      "price": 55000000,
+      "original_price": 58000000,
+      "category": "automobile",
+      "subcategory": "suv",
+      "images": [
+        "https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=800",
+        "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800"
+      ],
+      "stock": 2,
+      "featured": true,
+      "is_new": false,
+      "is_promo": true,
+      "specs": {
+        "Moteur": "V8 4.5L Diesel",
+        "Puissance": "272 ch",
+        "Transmission": "Automatique 6 vitesses",
+        "Carburant": "Diesel"
+      },
+      "created_at": "2026-02-01T17:23:43.996446+00:00",
+      "updated_at": "2026-02-01T17:23:43.996448+00:00"
+    },
+    {
+      "product_id": "prod_bmw_x5",
+      "name": "BMW X5 xDrive40i",
+      "description": "Le BMW X5 combine sportivité et polyvalence. Technologie de pointe, confort premium et performances impressionnantes sur route et hors-route.",
+      "short_description": "SUV sport premium",
+      "price": 52000000,
+      "original_price": 55000000,
+      "category": "automobile",
+      "subcategory": "suv",
+      "images": [
+        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800",
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800"
+      ],
+      "stock": 1,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "Moteur": "3.0L 6 cylindres Turbo",
+        "Puissance": "340 ch",
+        "Transmission": "Automatique 8 vitesses",
+        "Carburant": "Essence"
+      },
+      "created_at": "2026-02-01T17:23:43.996450+00:00",
+      "updated_at": "2026-02-01T17:23:43.996452+00:00"
+    },
+    {
+      "product_id": "prod_pneus_michelin",
+      "name": "Pneus Michelin Pilot Sport 4 (x4)",
+      "description": "Lot de 4 pneus Michelin Pilot Sport 4 pour véhicules de tourisme. Performance maximale sur route sèche et mouillée. Taille: 225/45 R17.",
+      "short_description": "Pneus haute performance",
+      "price": 480000,
+      "original_price": 520000,
+      "category": "automobile",
+      "subcategory": "accessoires",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+      ],
+      "stock": 20,
+      "featured": false,
+      "is_new": false,
+      "is_promo": true,
+      "specs": {
+        "Marque": "Michelin",
+        "Modèle": "Pilot Sport 4",
+        "Taille": "225/45 R17",
+        "Indice de charge": "94Y"
+      },
+      "created_at": "2026-02-01T17:23:43.996454+00:00",
+      "updated_at": "2026-02-01T17:23:43.996455+00:00"
+    },
+    {
+      "name": "iPhone 16 Pro - Coming Soon",
+      "description": "Le prochain iPhone.",
+      "short_description": "Bientôt disponible.",
+      "price": 1599000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      ],
+      "stock": 0,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": null,
+      "brand": "Apple",
+      "colors": null,
+      "sizes": null,
+      "variants": null,
+      "product_id": "prod_8e522b1ad0b3",
+      "created_at": "2026-02-02T19:53:52.367078+00:00",
+      "updated_at": "2026-02-02T19:53:52.367078+00:00"
+    },
+    {
+      "name": "Test Produit",
+      "description": "Description test",
+      "short_description": "Test court",
+      "price": 50000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://via.placeholder.com/400"
+      ],
+      "stock": 10,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": null,
+      "brand": null,
+      "colors": null,
+      "sizes": null,
+      "variants": null,
+      "product_id": "prod_852aa43aa7b1",
+      "created_at": "2026-02-04T03:02:04.742702+00:00",
+      "updated_at": "2026-02-04T03:02:04.742702+00:00"
+    },
+    {
+      "name": "iPhone 11",
+      "description": "Un smartphone Apple avec 128 Go de stockage. Il est complètement testé et vérifié. Statut débloqué pour tout opérateur.",
+      "short_description": "Smartphone Apple 128 Go",
+      "price": 3000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": "",
+      "images": [
+        "https://stable-prod.preview.emergentagent.com/api/uploads/50a58344b48f4dbbbe274a023ae6b2bc.jpeg"
+      ],
+      "stock": 0,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": {},
+      "brand": "Apple",
+      "colors": [
+        "Noir"
+      ],
+      "sizes": [],
+      "variants": null,
+      "is_on_order": false,
+      "order_delivery_days": null,
+      "product_id": "prod_81a975bfddff",
+      "created_at": "2026-02-04T03:04:29.324121+00:00",
+      "updated_at": "2026-02-04T03:04:29.324121+00:00"
+    },
+    {
+      "name": "MacBook Pro M4 Max",
+      "description": "Le MacBook Pro le plus puissant jamais conçu. Puce M4 Max avec 128Go RAM.",
+      "short_description": "Puce M4 Max. Écran Liquid Retina XDR.",
+      "price": 4500000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      ],
+      "stock": 0,
+      "featured": false,
+      "is_new": true,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": null,
+      "brand": "Apple",
+      "colors": null,
+      "sizes": null,
+      "variants": null,
+      "is_on_order": true,
+      "order_delivery_days": 14,
+      "product_id": "prod_ccd15281851f",
+      "created_at": "2026-02-04T03:06:00.869215+00:00",
+      "updated_at": "2026-02-04T03:06:00.869215+00:00"
+    },
+    {
+      "name": "Smartphone Apple iPhone 13",
+      "description": "L'iPhone 13 est un smartphone moderne offrant des performances avancées avec un design élégant. Disponible en plusieurs couleurs, il inclut une excellente caméra et un écran de haute qualité.",
+      "short_description": "iPhone 13 performant et élégant",
+      "price": 600000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": "",
+      "images": [
+        "https://stable-prod.preview.emergentagent.com/api/uploads/ec27586a0cba4d1090aa78bce39023e0.jpeg"
+      ],
+      "stock": 1,
+      "featured": false,
+      "is_new": true,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": {},
+      "brand": "Apple",
+      "colors": [
+        "Rouge",
+        "Blanc",
+        "Bleu",
+        "Vert",
+        "Rose"
+      ],
+      "sizes": [],
+      "variants": null,
+      "is_on_order": false,
+      "order_delivery_days": null,
+      "product_id": "prod_6ac019cc5597",
+      "created_at": "2026-02-04T03:11:12.566053+00:00",
+      "updated_at": "2026-02-04T03:11:12.566053+00:00"
+    },
+    {
+      "name": "Produit Test Simple",
+      "description": "Description test",
+      "short_description": "Test",
+      "price": 10000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+      ],
+      "stock": 5,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": null,
+      "brand": null,
+      "colors": null,
+      "sizes": null,
+      "variants": null,
+      "is_on_order": false,
+      "order_delivery_days": null,
+      "product_id": "prod_7df73648925e",
+      "created_at": "2026-02-04T03:15:25.599727+00:00",
+      "updated_at": "2026-02-04T03:15:25.599727+00:00"
+    },
+    {
+      "name": "Montre connectée",
+      "description": "Montre connectée avec bracelet noir et écran tactile rectangulaire. Idéale pour suivre l'activité physique, recevoir des notifications et gérer des applications.",
+      "short_description": "Montre connectée élégante",
+      "price": 100,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://stable-prod.preview.emergentagent.com/api/uploads/83dd0d95765d493b860dab2eb5a72ebe.jpeg"
+      ],
+      "stock": 0,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": {},
+      "brand": null,
+      "colors": [
+        "Noir",
+        "Gris"
+      ],
+      "sizes": [],
+      "variants": null,
+      "is_on_order": false,
+      "order_delivery_days": null,
+      "product_id": "prod_d8fd781eb2d9",
+      "created_at": "2026-02-06T21:10:42.939295+00:00",
+      "updated_at": "2026-02-06T21:10:42.939295+00:00"
+    },
+    {
+      "name": "Montre connectée iQIBLA",
+      "description": "Une montre connectée moderne avec un écran digital pour guider les utilisateurs. Conçue pour offrir des fonctionnalités pratiques et un design élégant.",
+      "short_description": "Montre connectée moderne",
+      "price": 100,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": null,
+      "images": [
+        "https://stable-prod.preview.emergentagent.com/api/uploads/57ff6c30b5ea417682149ffd1bfb5eb2.jpeg"
+      ],
+      "stock": 13,
+      "featured": false,
+      "is_new": true,
+      "is_promo": false,
+      "is_flash_sale": false,
+      "flash_sale_end": null,
+      "flash_sale_price": null,
+      "specs": {},
+      "brand": "iQIBLA",
+      "colors": [
+        "Bleu",
+        "Gris"
+      ],
+      "sizes": [],
+      "variants": null,
+      "is_on_order": false,
+      "order_delivery_days": null,
+      "product_id": "prod_6adf5637d3c3",
+      "created_at": "2026-02-06T21:12:16.018334+00:00",
+      "updated_at": "2026-02-06T21:12:16.018334+00:00"
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-F1215A06",
+      "user_id": "user_1dc6be8833aa",
+      "payment_status": "paid",
+      "order_status": "shipped",
+      "created_at": "2025-12-23T04:33:50.821662+00:00",
+      "payment_initiated_at": "2026-02-15T16:43:25.190675+00:00",
+      "paytech_ref": "ORD-F1215A06_1771173804",
+      "paytech_token": "405gzwpmlnz5igx",
+      "status_history": [
+        {
+          "status": "processing",
+          "timestamp": "2025-12-23T19:53:13.829556+00:00",
+          "note": "Commande en cours de préparation"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2025-12-23T19:53:13.874776+00:00",
+          "note": "Colis expédié via Dakar Express"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-2C32A04F",
+      "user_id": "user_1dc6be8833aa",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-23T14:15:42.247586+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Admin YAMA+",
+        "phone": "+221770000000",
+        "address": "8322 RUE GUYENNE",
+        "city": "Montreeal",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "wave",
+      "subtotal": 1149000,
+      "shipping_cost": 2500,
+      "total": 1151500,
+      "order_id": "ORD-34DD43CC",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-23T15:51:51.215865+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_airpods_pro",
+          "name": "AirPods Pro 2",
+          "price": 189000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Admin YAMA+",
+        "phone": "+221770000000",
+        "address": "8322 RUE GUYENNE",
+        "city": "Montreeal",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "wave",
+      "subtotal": 189000,
+      "shipping_cost": 2500,
+      "total": 191500,
+      "order_id": "ORD-F7C1D36E",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-23T16:05:02.430336+00:00",
+      "payment_initiated_at": "2025-12-23T16:05:03.226203+00:00",
+      "paytech_ref": "ORD-F7C1D36E_1766505902",
+      "paytech_token": "405gzwpmjis069o"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_airpods_pro",
+          "name": "AirPods Pro 2",
+          "price": 189000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Admin YAMA+",
+        "phone": "+221770000000",
+        "address": "13500",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "orange_money",
+      "subtotal": 189000,
+      "shipping_cost": 2500,
+      "total": 191500,
+      "order_id": "ORD-438F34D9",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-23T16:10:44.202815+00:00",
+      "payment_initiated_at": "2025-12-23T16:10:45.137707+00:00",
+      "paytech_ref": "ORD-438F34D9_1766506244",
+      "paytech_token": "405gzopmjis7i34"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_airpods_pro",
+          "name": "AirPods Pro 2",
+          "price": 189000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Admin YAMA+",
+        "phone": "+221770000000",
+        "address": "8320 RUE DE GUYENNE",
+        "city": "Montréal, Québec",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "wave",
+      "subtotal": 189000,
+      "shipping_cost": 2500,
+      "total": 191500,
+      "order_id": "ORD-152B64E3",
+      "user_id": "user_a12567020211",
+      "payment_status": "paid",
+      "order_status": "delivered",
+      "created_at": "2025-12-23T16:12:42.694284+00:00",
+      "payment_initiated_at": "2025-12-23T16:12:43.500080+00:00",
+      "paytech_ref": "ORD-152B64E3_1766506362",
+      "paytech_token": "eey3kpmjisa1ew",
+      "paid_at": "2025-12-23T16:13:34.411096+00:00",
+      "payment_method_used": "Wave"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-085D24DB",
+      "user_id": "user_a12567020211",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-23T19:33:38.491581+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-FC4D5D96",
+      "user_id": "user_a12567020211",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-23T19:34:39.574186+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-F110276A",
+      "user_id": "user_a12567020211",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-23T19:56:04.634057+00:00",
+      "status_history": [
+        {
+          "status": "shipped",
+          "timestamp": "2025-12-23T19:56:04.699412+00:00",
+          "note": "Test status update for tracking"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2025-12-23T19:56:04.793714+00:00",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_dyson_v15",
+          "name": "Dyson V15 Detect",
+          "price": 549000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "fass paillotte Dakar 13500",
+        "city": "Dakat",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "wave",
+      "subtotal": 549000,
+      "shipping_cost": 2500,
+      "total": 551500,
+      "order_id": "ORD-FC6AE91C",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-23T20:02:12.825615+00:00",
+      "payment_initiated_at": "2025-12-23T20:02:13.648310+00:00",
+      "paytech_ref": "ORD-FC6AE91C_1766520132",
+      "paytech_token": "eey3kpmjj0h6iz",
+      "paid_at": "2025-12-23T20:02:37.750454+00:00",
+      "payment_method_used": "Wave"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Fass",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "wave",
+      "subtotal": 1299000,
+      "shipping_cost": 2500,
+      "total": 1301500,
+      "order_id": "ORD-57ACA0D4",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-24T02:03:45.319235+00:00",
+      "payment_initiated_at": "2025-12-24T02:03:46.239001+00:00",
+      "paytech_ref": "ORD-57ACA0D4_1766541825",
+      "paytech_token": "405gzwpmjjde4hl"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 80000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Mame Boury Diouf",
+        "phone": "778498137",
+        "address": "Fass",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "wave",
+      "subtotal": 80000,
+      "shipping_cost": 2500,
+      "total": 82500,
+      "order_id": "ORD-B1B859DE",
+      "user_id": "user_6a61dd9522c5",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-24T03:38:43.535584+00:00",
+      "payment_initiated_at": "2025-12-24T03:38:44.348590+00:00",
+      "paytech_ref": "ORD-B1B859DE_1766547523",
+      "paytech_token": "405gzwpmjjgs9ck"
+    },
+    {
+      "items": [
+        {
+          "product_id": "test123",
+          "name": "Test Product",
+          "price": 50000,
+          "quantity": 2,
+          "image": "/test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test User",
+        "phone": "+221770000000",
+        "address": "123 Test St",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-52A7FEE4",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-24T03:50:55.992575+00:00",
+      "payment_initiated_at": "2025-12-24T03:51:06.878931+00:00",
+      "paytech_ref": "ORD-52A7FEE4_1766548266",
+      "paytech_token": "eey3kpmjjh869x"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Lamine ",
+        "phone": "7784981377",
+        "address": "Medina fall",
+        "city": "Thies",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "wave",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-A2BCE3C4",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "delivered",
+      "created_at": "2025-12-27T19:10:44.418328+00:00",
+      "payment_initiated_at": "2025-12-27T19:10:45.340578+00:00",
+      "paytech_ref": "ORD-A2BCE3C4_1766862644",
+      "paytech_token": "405gzvpmjooee8u",
+      "status_history": [
+        {
+          "status": "delivered",
+          "timestamp": "2025-12-27T19:11:42.917596+00:00",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test",
+          "name": "Test Product",
+          "price": 15000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Client",
+        "phone": "+221770000000",
+        "address": "Test Address",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "wave",
+      "subtotal": 15000,
+      "shipping_cost": 1500,
+      "total": 16500,
+      "order_id": "ORD-475A5165",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-30T01:57:50.990094+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test123",
+          "name": "Test Product for Wave",
+          "price": 25000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "wave",
+      "subtotal": 25000,
+      "shipping_cost": 2500,
+      "total": 27500,
+      "order_id": "ORD-A23C215B",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-30T02:00:01.983861+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test123",
+          "name": "Test Product for Orange Money",
+          "price": 25000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "orange_money",
+      "subtotal": 25000,
+      "shipping_cost": 2500,
+      "total": 27500,
+      "order_id": "ORD-54C13477",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-30T02:00:02.045314+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test123",
+          "name": "Test Product for Free Money",
+          "price": 25000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "free_money",
+      "subtotal": 25000,
+      "shipping_cost": 2500,
+      "total": 27500,
+      "order_id": "ORD-676F8314",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-30T02:00:02.061534+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test123",
+          "name": "Test Product for Card",
+          "price": 25000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "card",
+      "subtotal": 25000,
+      "shipping_cost": 2500,
+      "total": 27500,
+      "order_id": "ORD-FB9E9C33",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-30T02:00:02.072090+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test123",
+          "name": "Test Product for Cash on Delivery",
+          "price": 25000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "cash",
+      "subtotal": 25000,
+      "shipping_cost": 2500,
+      "total": 27500,
+      "order_id": "ORD-DAA9940C",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-30T02:00:02.127539+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test123",
+          "name": "Test Product for Notification",
+          "price": 50000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Fass Paillote",
+        "region": "Dakar",
+        "notes": "Test order for admin notification"
+      },
+      "payment_method": "free_money",
+      "subtotal": 50000,
+      "shipping_cost": 1500,
+      "total": 51500,
+      "order_id": "ORD-7947D842",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2025-12-30T02:00:02.237967+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_test123",
+          "name": "Test Product for Notification",
+          "price": 50000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Fass Paillote",
+        "region": "Dakar",
+        "notes": "Test order for admin notification"
+      },
+      "payment_method": "free_money",
+      "subtotal": 50000,
+      "shipping_cost": 1500,
+      "total": 51500,
+      "order_id": "ORD-9E54C9F2",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "delivered",
+      "created_at": "2025-12-30T02:00:02.250052+00:00",
+      "status_history": [
+        {
+          "status": "processing",
+          "timestamp": "2025-12-30T02:00:02.306088+00:00",
+          "note": "Order is being prepared"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2025-12-30T02:00:02.317086+00:00",
+          "note": "Order has been shipped"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2025-12-30T02:00:02.330439+00:00",
+          "note": "Order delivered successfully"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-38B72776",
+      "user_id": "user_a12567020211",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-30T02:40:55.417126+00:00",
+      "status_history": [
+        {
+          "status": "shipped",
+          "timestamp": "2025-12-30T02:40:55.478432+00:00",
+          "note": "Test status update for tracking"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2025-12-30T02:40:55.616584+00:00",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 80000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Boury Diouf",
+        "phone": "778498137",
+        "address": "fass paillotte",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 80000,
+      "shipping_cost": 1500,
+      "total": 81500,
+      "order_id": "ORD-59D090DA",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-01T16:41:58.779523+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-47F5B5F1",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-01T17:51:23.399202+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-B042ABB2",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-02T19:48:50.856128+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Ahhh ",
+        "phone": "778498137",
+        "address": "Fasd",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1035600,
+      "order_id": "ORD-D1069EA0",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T03:54:42.015419+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-D64D61F2",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T17:36:30.621023+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "cash",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-5EC5BAD4",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T17:36:39.924925+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "cash",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-E427CF1E",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T17:36:41.431632+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "cash",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-BF912541",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T17:36:42.408866+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Louga",
+        "notes": ""
+      },
+      "payment_method": "cash",
+      "subtotal": 1149000,
+      "shipping_cost": 3500,
+      "total": 1152500,
+      "order_id": "ORD-4CD79C27",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T17:36:51.794674+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_macbook_air",
+          "name": "MacBook Air M3",
+          "price": 1149000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "cash",
+      "subtotal": 1149000,
+      "shipping_cost": 1500,
+      "total": 1150500,
+      "order_id": "ORD-7048FE10",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T17:37:10.581804+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_81a975bfddff",
+          "name": "iPhone 11",
+          "price": 3000,
+          "quantity": 1,
+          "image": "/api/uploads/50a58344b48f4dbbbe274a023ae6b2bc.jpeg"
+        }
+      ],
+      "shipping": {
+        "full_name": "amadou boury diouf",
+        "phone": "778498137",
+        "address": "Dakar",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 3000,
+      "shipping_cost": 1500,
+      "total": 4500,
+      "order_id": "ORD-416DB785",
+      "user_id": "user_c4b88cf80bb2",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-04T17:37:38.995200+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Amadou ",
+        "phone": "778498137",
+        "address": "Fass",
+        "city": "Medina",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1299000,
+      "shipping_cost": 1500,
+      "total": 1300500,
+      "order_id": "ORD-CDA502FC",
+      "user_id": "user_964dd8c1fe10",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:06:02.909442+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Amadou ",
+        "phone": "778498137",
+        "address": "Fass",
+        "city": "Medina",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1299000,
+      "shipping_cost": 1500,
+      "total": 1300500,
+      "order_id": "ORD-8D94D35C",
+      "user_id": "user_964dd8c1fe10",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:06:06.359458+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_bmw_x5",
+          "name": "BMW X5 xDrive40i",
+          "price": 52000000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Amadou ",
+        "phone": "775144737",
+        "address": "Fass",
+        "city": "Medina",
+        "region": "Dakar",
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 52000000,
+      "shipping_cost": 1500,
+      "total": 52001500,
+      "order_id": "ORD-D6CC15DC",
+      "user_id": "user_964dd8c1fe10",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:06:51.700903+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Client",
+        "phone": "+221 77 123 45 67",
+        "address": "123 Rue Test",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": null
+      },
+      "payment_method": "cash_on_delivery",
+      "subtotal": 1299000,
+      "shipping_cost": 2500,
+      "total": 1301500,
+      "order_id": "ORD-B6749196",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:27:53.724693+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Client",
+        "email": "test@example.com",
+        "phone": "+221 77 123 45 67",
+        "address": "123 Rue Test",
+        "city": "Dakar",
+        "region": "Dakar",
+        "neighborhood": "Plateau",
+        "notes": null
+      },
+      "payment_method": "cash_on_delivery",
+      "subtotal": 1299000,
+      "shipping_cost": 2500,
+      "total": 1301500,
+      "order_id": "ORD-A08848E8",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:29:40.471460+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Client 2",
+        "email": "test2@example.com",
+        "phone": "+221 77 123 45 67",
+        "address": "456 Avenue Test",
+        "city": "Dakar",
+        "region": "Dakar",
+        "neighborhood": "Almadies",
+        "notes": null
+      },
+      "payment_method": "cash_on_delivery",
+      "subtotal": 1299000,
+      "shipping_cost": 2500,
+      "total": 1301500,
+      "order_id": "ORD-55B4CD3E",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:31:10.832133+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Client Test 3",
+        "email": "client3@example.com",
+        "phone": "+221 77 999 88 77",
+        "address": "789 Boulevard Test",
+        "city": "Dakar",
+        "region": "Dakar",
+        "neighborhood": "Mermoz",
+        "notes": null
+      },
+      "payment_method": "cash_on_delivery",
+      "subtotal": 1299000,
+      "shipping_cost": 2500,
+      "total": 1301500,
+      "order_id": "ORD-4642DB37",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:32:02.604584+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Bbto ",
+        "email": "amadoubourydiouf@gmail.com",
+        "phone": "78525555",
+        "address": "778498137",
+        "city": "Castor",
+        "region": "Dakar",
+        "neighborhood": null,
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1299000,
+      "shipping_cost": 2000,
+      "total": 1301000,
+      "order_id": "ORD-D1F119D9",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T06:32:17.259449+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "iPhone 15 Pro Max",
+          "price": 1299000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Amadou Diouf ",
+        "email": "amadoubourydiouf@gmail.com",
+        "phone": "778498137",
+        "address": "Fass ",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "neighborhood": null,
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 1299000,
+      "shipping_cost": 1500,
+      "total": 1300500,
+      "order_id": "ORD-55FC31B9",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T15:44:56.257512+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_galaxy_watch",
+          "name": "Galaxy Watch 6 Classic",
+          "price": 279000,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Admin YAMA+",
+        "email": "admin@yama.sn",
+        "phone": "+221771112233",
+        "address": "Fass ",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "neighborhood": null,
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 558000,
+      "shipping_cost": 1500,
+      "total": 559500,
+      "order_id": "ORD-592BFCE2",
+      "user_id": "user_a12567020211",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-05T16:02:56.434010+00:00",
+      "status_history": [
+        {
+          "status": "processing",
+          "timestamp": "2026-02-05T18:16:42.120182+00:00",
+          "note": ""
+        },
+        {
+          "status": "pending",
+          "timestamp": "2026-02-05T18:16:42.231636+00:00",
+          "note": ""
+        },
+        {
+          "status": "processing",
+          "timestamp": "2026-02-05T18:59:40.658675+00:00",
+          "note": ""
+        },
+        {
+          "status": "pending",
+          "timestamp": "2026-02-05T18:59:40.747509+00:00",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_airpods_pro",
+          "name": "AirPods Pro 2",
+          "price": 189000,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+        },
+        {
+          "product_id": "prod_serum_visage",
+          "name": "Sérum Éclat Vitamine C",
+          "price": 45000,
+          "quantity": 1,
+          "image": "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?w=800"
+        }
+      ],
+      "shipping": {
+        "full_name": "Ndèye Aminata diouf ",
+        "email": "ndeyeaminatadiouf2006@gmail.com",
+        "phone": "785987518",
+        "address": "Dakar ",
+        "city": "Fass Paillote",
+        "region": "Dakar",
+        "neighborhood": null,
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 234000,
+      "shipping_cost": 1500,
+      "total": 235500,
+      "order_id": "ORD-1493DB96",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-06T14:28:21.380689+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_6adf5637d3c3",
+          "name": "Montre connectée iQIBLA",
+          "price": 100,
+          "quantity": 1,
+          "image": "/api/uploads/57ff6c30b5ea417682149ffd1bfb5eb2.jpeg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Amadou Boury Diouf",
+        "email": "amadoubourydiouf@gmail.com",
+        "phone": "778498137",
+        "address": "Fass",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "neighborhood": null,
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 100,
+      "shipping_cost": 1500,
+      "total": 1600,
+      "order_id": "ORD-5D234355",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "pending",
+      "created_at": "2026-02-06T21:13:34.989448+00:00"
+    },
+    {
+      "order_id": "TEST-C311DDCA",
+      "items": [
+        {
+          "name": "Test Product",
+          "price": 10000,
+          "quantity": 1
+        }
+      ],
+      "total": 10000,
+      "status": "pending",
+      "payment_method": "card",
+      "shipping": {
+        "full_name": "Test Client",
+        "email": "test@test.com",
+        "phone": "771234567",
+        "address": "Test Address",
+        "city": "Dakar",
+        "region": "Dakar"
+      },
+      "created_at": "2026-02-06T21:22:17.477863+00:00",
+      "payment_initiated_at": "2026-02-06T21:22:27.139825+00:00",
+      "paytech_ref": "TEST-C311DDCA_1770412946",
+      "paytech_token": "405gznqmlbe5omx"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_6adf5637d3c3",
+          "name": "Montre connectée iQIBLA",
+          "price": 100,
+          "quantity": 1,
+          "image": "/api/uploads/57ff6c30b5ea417682149ffd1bfb5eb2.jpeg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Amadou Boury Diouf ",
+        "email": "amadoubourydiouf@gmail.com",
+        "phone": "778498137",
+        "address": "Fass ",
+        "city": "Dakar Centre",
+        "region": "Dakar",
+        "neighborhood": null,
+        "notes": ""
+      },
+      "payment_method": "mobile_money",
+      "subtotal": 100,
+      "shipping_cost": 1500,
+      "total": 1600,
+      "order_id": "ORD-9279EBBB",
+      "user_id": null,
+      "payment_status": "pending",
+      "order_status": "delivered",
+      "created_at": "2026-02-06T21:25:58.069925+00:00",
+      "payment_initiated_at": "2026-02-06T21:25:58.976182+00:00",
+      "paytech_ref": "ORD-9279EBBB_1770413158",
+      "paytech_token": "405gznqmlbea83f",
+      "status_history": [
+        {
+          "status": "shipped",
+          "timestamp": "2026-02-15T15:06:40.347066+00:00",
+          "note": ""
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2026-02-15T15:06:43.484765+00:00",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "service_providers": [
+    {
+      "provider_id": "PRV-FAB5D4AD",
+      "name": "Mamadou Ndiaye",
+      "profession": "Plombier",
+      "category": "electricity_plumbing",
+      "subcategory": null,
+      "description": "Plombier professionnel avec 10 ans d experience.",
+      "city": "Dakar",
+      "zone": "Parcelles Assainies",
+      "phone": "+221776543210",
+      "whatsapp": "+221776543210",
+      "email": "mamadou@example.com",
+      "password": "$2b$12$8dTadmosMbivsTnlTEBRF.dsXjaub2cyBtpPyDMN6ZegKjVql1GxC",
+      "price_from": 5000,
+      "price_description": "par intervention",
+      "availability": "available",
+      "experience_years": 10,
+      "photos": [
+        "https://stable-prod.preview.emergentagent.com/api/uploads/test_gallery_image.jpg"
+      ],
+      "is_verified": true,
+      "is_premium": false,
+      "is_active": true,
+      "rating": 0.0,
+      "review_count": 0,
+      "completed_jobs": 0,
+      "created_at": "2026-02-06T22:15:25.663569+00:00",
+      "updated_at": "2026-02-15T17:08:08.340150+00:00",
+      "verification_documents": [
+        {
+          "doc_id": "DOC-A1CD0159",
+          "document_type": "cni_front",
+          "document_url": "https://example.com/test-cni.jpg",
+          "description": "Test CNI document",
+          "status": "pending",
+          "uploaded_at": "2026-02-07T18:08:31.034823+00:00"
+        },
+        {
+          "doc_id": "DOC-16FCDA36",
+          "document_type": "photo",
+          "document_url": "https://example.com/test-photo.jpg",
+          "description": "Test photo for verification",
+          "status": "pending",
+          "uploaded_at": "2026-02-07T18:10:36.547665+00:00"
+        }
+      ],
+      "verification_status": "pending",
+      "user_id": "user_07cc2c369c2f",
+      "gallery": [
+        {
+          "photo_id": "PHT-ECA5EF1C",
+          "image_url": "https://stable-prod.preview.emergentagent.com/api/uploads/test_gallery_image.jpg",
+          "caption": "TEST_Photo de test",
+          "order": 1,
+          "added_at": "2026-02-15T17:08:07.981637+00:00"
+        }
+      ]
+    },
+    {
+      "provider_id": "PRV-F1C51405",
+      "name": "Test Provider",
+      "profession": "Électricien",
+      "category": "electricity_plumbing",
+      "subcategory": null,
+      "description": "Test provider for testing",
+      "city": "Dakar",
+      "zone": "Plateau",
+      "phone": "+221779999999",
+      "whatsapp": "+221779999999",
+      "email": null,
+      "password": "$2b$12$i/ibJNWcIAFpYOD/cpvHFeXPiM4MSvBAFZNLaBAViyKQ/ZGFhiVX.",
+      "price_from": null,
+      "price_description": null,
+      "availability": "available",
+      "experience_years": null,
+      "photos": [],
+      "is_verified": true,
+      "is_premium": false,
+      "is_active": true,
+      "rating": 0.0,
+      "review_count": 0,
+      "completed_jobs": 0,
+      "created_at": "2026-02-06T22:19:13.590764+00:00",
+      "updated_at": "2026-02-07T01:13:31.218697+00:00"
+    },
+    {
+      "provider_id": "PRV-0F3F5F72",
+      "name": "Test Provider",
+      "profession": "Électricien",
+      "category": "electricity_plumbing",
+      "subcategory": null,
+      "description": "Test provider registration",
+      "city": "Dakar",
+      "zone": "Plateau",
+      "phone": "+22177297f87",
+      "whatsapp": "+22177297f87",
+      "email": null,
+      "password": "$2b$12$ecrLjkTSahCL1D7/8gi6GuIurEe6Puyok40mn9etJNH41.XGyoxb2",
+      "price_from": null,
+      "price_description": null,
+      "availability": "available",
+      "experience_years": null,
+      "photos": [],
+      "is_verified": true,
+      "is_premium": false,
+      "is_active": true,
+      "rating": 0.0,
+      "review_count": 0,
+      "completed_jobs": 0,
+      "created_at": "2026-02-06T22:20:07.042907+00:00",
+      "updated_at": "2026-02-07T01:13:32.836756+00:00"
+    }
+  ],
+  "service_requests": [
+    {
+      "request_id": "SR-3944A8AE",
+      "category": "electricity_plumbing",
+      "profession": "Plombier",
+      "city": "Dakar",
+      "zone": "Plateau",
+      "description": "Fuite d eau dans la salle de bain, besoin urgent de reparation",
+      "preferred_date": "2026-02-10",
+      "preferred_time": "morning",
+      "client_name": "Amadou Diallo",
+      "client_phone": "+221771234567",
+      "client_whatsapp": null,
+      "client_email": null,
+      "address": null,
+      "photos": [],
+      "budget": null,
+      "status": "new",
+      "assigned_provider_id": null,
+      "assigned_provider_name": null,
+      "admin_notes": "Test note from automated test",
+      "created_at": "2026-02-06T22:13:52.425853+00:00",
+      "updated_at": "2026-02-06T22:20:08.617341+00:00"
+    },
+    {
+      "request_id": "SR-7A875BA4",
+      "category": "construction",
+      "profession": "Peintre",
+      "city": "Dakar",
+      "zone": "Almadies",
+      "description": "Besoin de peindre un appartement de 3 chambres",
+      "preferred_date": null,
+      "preferred_time": null,
+      "client_name": "Test Client",
+      "client_phone": "+221778888888",
+      "client_whatsapp": null,
+      "client_email": null,
+      "address": null,
+      "photos": [],
+      "budget": null,
+      "status": "assigned",
+      "assigned_provider_id": "PRV-FAB5D4AD",
+      "assigned_provider_name": "Mamadou Ndiaye",
+      "admin_notes": null,
+      "created_at": "2026-02-06T22:19:13.935595+00:00",
+      "updated_at": "2026-02-07T00:54:44.762923+00:00"
+    },
+    {
+      "request_id": "SR-4E20046E",
+      "category": "construction",
+      "profession": "Peintre",
+      "city": "Dakar",
+      "zone": "Plateau",
+      "description": "Test request c0ff04bb",
+      "preferred_date": null,
+      "preferred_time": null,
+      "client_name": "Test Client",
+      "client_phone": "+221770000001",
+      "client_whatsapp": null,
+      "client_email": null,
+      "address": null,
+      "photos": [],
+      "budget": null,
+      "status": "new",
+      "assigned_provider_id": null,
+      "assigned_provider_name": null,
+      "admin_notes": null,
+      "created_at": "2026-02-06T22:20:06.654152+00:00",
+      "updated_at": null
+    },
+    {
+      "request_id": "SR-89FCCCBA",
+      "category": "electricity_plumbing",
+      "profession": "Plombier",
+      "city": "Dakar",
+      "zone": "Parcelles Assainies",
+      "description": "Need a plumber for testing",
+      "preferred_date": null,
+      "preferred_time": null,
+      "client_name": "Test Customer",
+      "client_phone": "+221771234567",
+      "client_whatsapp": null,
+      "client_email": "test@example.com",
+      "address": null,
+      "photos": [],
+      "budget": "5000-20000 FCFA",
+      "status": "new",
+      "assigned_provider_id": null,
+      "assigned_provider_name": null,
+      "admin_notes": null,
+      "created_at": "2026-02-06T22:54:10.581881+00:00",
+      "updated_at": null
+    }
+  ],
+  "appointments": [
+    {
+      "appointment_id": "rdv_7b64550d20",
+      "product_id": "prod_mercedes_c300",
+      "product_name": "Mercedes-Benz Classe C 300",
+      "category": "automobile",
+      "customer": {
+        "name": "Amadou ",
+        "email": "amadoubourydiouf@gmail.com",
+        "phone": "778498137"
+      },
+      "preferred_date": "2026-02-06",
+      "preferred_time": "10:00",
+      "message": "",
+      "contact_method": "email",
+      "status": "confirmed",
+      "confirmed_date": "2026-01-20",
+      "confirmed_time": "10:00",
+      "location": "Fass Paillote, Dakar",
+      "created_at": "2026-02-05T16:04:37.628141+00:00",
+      "updated_at": "2026-02-05T18:59:40.440033+00:00"
+    }
+  ],
+  "quotes": [
+    {
+      "quote_id": "DEV-B65205FC",
+      "quote_number": "YMP-DEV-2026-001",
+      "partner_id": "PART-C073D456",
+      "title": "Développement site web e-commerce",
+      "description": "Création d un site e-commerce complet avec système de paiement",
+      "items": [
+        {
+          "description": "Analyse et cahier des charges",
+          "quantity": 1.0,
+          "unit_price": 150000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        },
+        {
+          "description": "Design UI/UX",
+          "quantity": 1.0,
+          "unit_price": 200000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        },
+        {
+          "description": "Développement frontend",
+          "quantity": 40.0,
+          "unit_price": 15000.0,
+          "unit": "heure",
+          "discount_percent": 0
+        },
+        {
+          "description": "Développement backend",
+          "quantity": 60.0,
+          "unit_price": 15000.0,
+          "unit": "heure",
+          "discount_percent": 0
+        },
+        {
+          "description": "Tests et déploiement",
+          "quantity": 1.0,
+          "unit_price": 100000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        }
+      ],
+      "validity_days": 30,
+      "notes": "Délai de réalisation: 8 semaines",
+      "payment_terms": "50% à la commande, 50% à la livraison",
+      "subtotal": 1950000.0,
+      "total": 1950000.0,
+      "status": "pending",
+      "created_at": "2026-02-06T22:39:20.770764+00:00",
+      "updated_at": null,
+      "accepted_at": null,
+      "refused_at": null,
+      "converted_to_invoice_id": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:38:58.420269+00:00"
+    },
+    {
+      "quote_id": "DEV-D76D2FAD",
+      "quote_number": "YMP-DEV-2026-002",
+      "partner_id": "PART-42CD0CB4",
+      "title": "Test Quote - Web Development",
+      "description": "Development of e-commerce website",
+      "items": [
+        {
+          "description": "Website Design",
+          "quantity": 1.0,
+          "unit_price": 500000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        },
+        {
+          "description": "Development",
+          "quantity": 40.0,
+          "unit_price": 25000.0,
+          "unit": "heure",
+          "discount_percent": 0
+        }
+      ],
+      "validity_days": 30,
+      "notes": null,
+      "payment_terms": "50% à la commande, 50% à la livraison",
+      "subtotal": 1500000.0,
+      "total": 1500000.0,
+      "status": "pending",
+      "created_at": "2026-02-06T22:53:25.197660+00:00",
+      "updated_at": null,
+      "accepted_at": null,
+      "refused_at": null,
+      "converted_to_invoice_id": null,
+      "pdf_url": null
+    },
+    {
+      "quote_id": "DEV-EB8E5F67",
+      "quote_number": "YMP-DEV-2026-003",
+      "partner_id": "PART-986F60F7",
+      "title": "Test Quote - Web Development",
+      "description": "Development of e-commerce website",
+      "items": [
+        {
+          "description": "Website Design",
+          "quantity": 1.0,
+          "unit_price": 500000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        },
+        {
+          "description": "Development",
+          "quantity": 40.0,
+          "unit_price": 25000.0,
+          "unit": "heure",
+          "discount_percent": 0
+        }
+      ],
+      "validity_days": 30,
+      "notes": null,
+      "payment_terms": "50% à la commande, 50% à la livraison",
+      "subtotal": 1500000.0,
+      "total": 1500000.0,
+      "status": "pending",
+      "created_at": "2026-02-06T22:54:11.150094+00:00",
+      "updated_at": null,
+      "accepted_at": null,
+      "refused_at": null,
+      "converted_to_invoice_id": null,
+      "pdf_url": null
+    },
+    {
+      "quote_id": "DEV-E004C535",
+      "quote_number": "YMP-DEV-2026-004",
+      "partner_id": "PART-75C10572",
+      "title": "TEST_Quote_Email_Test",
+      "description": "Quote for email testing",
+      "items": [
+        {
+          "description": "Service de test",
+          "quantity": 1.0,
+          "unit_price": 50000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        }
+      ],
+      "validity_days": 30,
+      "notes": null,
+      "payment_terms": "Paiement à réception",
+      "subtotal": 50000.0,
+      "total": 50000.0,
+      "status": "pending",
+      "created_at": "2026-02-07T00:40:53.415502+00:00",
+      "updated_at": null,
+      "accepted_at": null,
+      "refused_at": null,
+      "converted_to_invoice_id": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:40:54.604863+00:00"
+    },
+    {
+      "quote_id": "DEV-F81999FD",
+      "quote_number": "YMP-DEV-2026-005",
+      "partner_id": "PART-98272425",
+      "title": "TEST_Quote_Email_Test",
+      "description": "Quote for email testing",
+      "items": [
+        {
+          "description": "Service de test",
+          "quantity": 1.0,
+          "unit_price": 50000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        }
+      ],
+      "validity_days": 30,
+      "notes": null,
+      "payment_terms": "Paiement à réception",
+      "subtotal": 50000.0,
+      "total": 50000.0,
+      "status": "pending",
+      "created_at": "2026-02-07T00:42:09.181147+00:00",
+      "updated_at": null,
+      "accepted_at": null,
+      "refused_at": null,
+      "converted_to_invoice_id": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:42:10.508833+00:00"
+    },
+    {
+      "quote_id": "DEV-BD698BC3",
+      "quote_number": "YMP-DEV-2026-006",
+      "partner_id": "PART-D94B9AED",
+      "title": "TEST_Quote_Email_Test",
+      "description": "Quote for email testing",
+      "items": [
+        {
+          "description": "Service de test",
+          "quantity": 1.0,
+          "unit_price": 50000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        }
+      ],
+      "validity_days": 30,
+      "notes": null,
+      "payment_terms": "Paiement à réception",
+      "subtotal": 50000.0,
+      "total": 50000.0,
+      "status": "pending",
+      "created_at": "2026-02-07T00:42:33.047276+00:00",
+      "updated_at": null,
+      "accepted_at": null,
+      "refused_at": null,
+      "converted_to_invoice_id": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:42:34.250646+00:00"
+    }
+  ],
+  "invoices": [
+    {
+      "invoice_id": "INV-E89A3766",
+      "invoice_number": "YMP-FAC-2026-001",
+      "partner_id": "PART-C073D456",
+      "invoice_type": "final",
+      "title": "Maintenance mensuelle",
+      "description": null,
+      "items": [
+        {
+          "description": "Maintenance serveur",
+          "quantity": 1.0,
+          "unit_price": 50000.0,
+          "unit": "mois",
+          "discount_percent": 0
+        },
+        {
+          "description": "Support technique",
+          "quantity": 10.0,
+          "unit_price": 5000.0,
+          "unit": "heure",
+          "discount_percent": 0
+        }
+      ],
+      "due_date": "2026-02-28",
+      "notes": null,
+      "payment_terms": "Paiement sous 30 jours",
+      "from_quote_id": null,
+      "subtotal": 100000.0,
+      "total": 100000.0,
+      "amount_paid": 0,
+      "status": "unpaid",
+      "created_at": "2026-02-06T22:44:04.047042+00:00",
+      "updated_at": null,
+      "paid_at": null,
+      "pdf_url": null
+    },
+    {
+      "invoice_id": "INV-CDAE4C8F",
+      "invoice_number": "YMP-FAC-2026-002",
+      "partner_id": "PART-75C10572",
+      "invoice_type": "final",
+      "title": "TEST_Invoice_Email_Test",
+      "description": "Invoice for email testing",
+      "items": [
+        {
+          "description": "Service facturé",
+          "quantity": 1.0,
+          "unit_price": 75000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        }
+      ],
+      "due_date": null,
+      "notes": null,
+      "payment_terms": "Paiement à réception",
+      "from_quote_id": null,
+      "subtotal": 75000.0,
+      "total": 75000.0,
+      "amount_paid": 0,
+      "status": "unpaid",
+      "created_at": "2026-02-07T00:40:54.936454+00:00",
+      "updated_at": null,
+      "paid_at": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:40:55.962962+00:00"
+    },
+    {
+      "invoice_id": "INV-C3DFAED0",
+      "invoice_number": "YMP-FAC-2026-003",
+      "partner_id": "PART-98272425",
+      "invoice_type": "final",
+      "title": "TEST_Invoice_Email_Test",
+      "description": "Invoice for email testing",
+      "items": [
+        {
+          "description": "Service facturé",
+          "quantity": 1.0,
+          "unit_price": 75000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        }
+      ],
+      "due_date": null,
+      "notes": null,
+      "payment_terms": "Paiement à réception",
+      "from_quote_id": null,
+      "subtotal": 75000.0,
+      "total": 75000.0,
+      "amount_paid": 0,
+      "status": "unpaid",
+      "created_at": "2026-02-07T00:42:10.831599+00:00",
+      "updated_at": null,
+      "paid_at": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:42:12.032189+00:00"
+    },
+    {
+      "invoice_id": "INV-9FF857FE",
+      "invoice_number": "YMP-FAC-2026-004",
+      "partner_id": "PART-D94B9AED",
+      "invoice_type": "final",
+      "title": "TEST_Invoice_Email_Test",
+      "description": "Invoice for email testing",
+      "items": [
+        {
+          "description": "Service facturé",
+          "quantity": 1.0,
+          "unit_price": 75000.0,
+          "unit": "forfait",
+          "discount_percent": 0
+        }
+      ],
+      "due_date": null,
+      "notes": null,
+      "payment_terms": "Paiement à réception",
+      "from_quote_id": null,
+      "subtotal": 75000.0,
+      "total": 75000.0,
+      "amount_paid": 0,
+      "status": "unpaid",
+      "created_at": "2026-02-07T00:42:34.534947+00:00",
+      "updated_at": null,
+      "paid_at": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:42:35.629479+00:00"
+    }
+  ],
+  "contracts": [
+    {
+      "contract_id": "CTR-0B5A17A8",
+      "contract_number": "YMP-CTR-2026-001",
+      "partner_id": "PART-C073D456",
+      "contract_type": "partnership",
+      "title": "Contrat de Partenariat Commercial",
+      "description": "Partenariat pour la distribution de produits electroniques",
+      "clauses": [
+        {
+          "title": "Article 1 - Objet",
+          "content": "Le present contrat definit les modalites de partenariat entre les parties.",
+          "is_editable": true
+        },
+        {
+          "title": "Article 2 - Duree",
+          "content": "Le contrat est valable pour une duree de 12 mois renouvelable.",
+          "is_editable": true
+        }
+      ],
+      "start_date": "2026-02-01",
+      "end_date": "2027-01-31",
+      "value": 5000000.0,
+      "notes": null,
+      "status": "draft",
+      "created_at": "2026-02-06T22:44:13.909167+00:00",
+      "updated_at": null,
+      "signed_at": null,
+      "pdf_url": null
+    },
+    {
+      "contract_id": "CTR-87F24764",
+      "contract_number": "YMP-CTR-2026-002",
+      "partner_id": "PART-75C10572",
+      "contract_type": "partnership",
+      "title": "TEST_Contract_Email_Test",
+      "description": "Contract for email testing",
+      "clauses": [
+        {
+          "title": "Article 1",
+          "content": "Test clause content",
+          "is_editable": true
+        }
+      ],
+      "start_date": "2026-02-07",
+      "end_date": null,
+      "value": 100000.0,
+      "notes": null,
+      "status": "draft",
+      "created_at": "2026-02-07T00:40:56.290253+00:00",
+      "updated_at": null,
+      "signed_at": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:40:57.247989+00:00"
+    },
+    {
+      "contract_id": "CTR-BFFCE7FC",
+      "contract_number": "YMP-CTR-2026-003",
+      "partner_id": "PART-98272425",
+      "contract_type": "partnership",
+      "title": "TEST_Contract_Email_Test",
+      "description": "Contract for email testing",
+      "clauses": [
+        {
+          "title": "Article 1",
+          "content": "Test clause content",
+          "is_editable": true
+        }
+      ],
+      "start_date": "2026-02-07",
+      "end_date": null,
+      "value": 100000.0,
+      "notes": null,
+      "status": "draft",
+      "created_at": "2026-02-07T00:42:12.356530+00:00",
+      "updated_at": null,
+      "signed_at": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:42:13.456905+00:00"
+    },
+    {
+      "contract_id": "CTR-44036D10",
+      "contract_number": "YMP-CTR-2026-004",
+      "partner_id": "PART-D94B9AED",
+      "contract_type": "partnership",
+      "title": "TEST_Contract_Email_Test",
+      "description": "Contract for email testing",
+      "clauses": [
+        {
+          "title": "Article 1",
+          "content": "Test clause content",
+          "is_editable": true
+        }
+      ],
+      "start_date": "2026-02-07",
+      "end_date": null,
+      "value": 100000.0,
+      "notes": null,
+      "status": "draft",
+      "created_at": "2026-02-07T00:42:35.962721+00:00",
+      "updated_at": null,
+      "signed_at": null,
+      "pdf_url": null,
+      "last_email_sent_at": "2026-02-07T00:42:37.043557+00:00"
+    },
+    {
+      "contract_id": "CTR-F7AF50F8",
+      "contract_number": "YMP-CTR-2026-005",
+      "contract_type": "partnership",
+      "partner_id": "PART-50ED18E2",
+      "partner_name": "amadou",
+      "partner_email": "amadoubourydiouf@gmail.com",
+      "title": "Contrat de partenariat commercial",
+      "description": "Partenariat commercial avec commission de 15.0%",
+      "clauses": [
+        {
+          "title": "Article 1 - Objet",
+          "content": "Partenariat pour commercialisation de produits/services"
+        },
+        {
+          "title": "Article 2 - Engagements Partenaire",
+          "content": "Qualité, délais, authenticité, informations exactes"
+        },
+        {
+          "title": "Article 3 - Engagements YAMA+",
+          "content": "Promotion, visibilité, facilitation, suivi paiements"
+        },
+        {
+          "title": "Article 4 - Commission",
+          "content": "15.0%"
+        },
+        {
+          "title": "Article 5 - Paiement",
+          "content": "chaque mois via Wave / Orange Money / Virement bancaire"
+        },
+        {
+          "title": "Article 6 - Livraison",
+          "content": "Par GROUPE YAMA PLUS, frais inclus dans le prix"
+        },
+        {
+          "title": "Article 7 - Retour/Garantie",
+          "content": "Politique retour YAMA+"
+        },
+        {
+          "title": "Article 8 - Confidentialité",
+          "content": "Informations confidentielles"
+        },
+        {
+          "title": "Article 9 - Durée",
+          "content": "12 mois, renouvelable"
+        },
+        {
+          "title": "Article 10 - Résiliation",
+          "content": "Préavis 15 jours"
+        },
+        {
+          "title": "Article 11 - Litiges",
+          "content": "Juridictions Dakar"
+        }
+      ],
+      "commission_percent": 15.0,
+      "payment_frequency": "chaque mois",
+      "payment_method": "Wave / Orange Money / Virement bancaire",
+      "delivery_responsibility": "GROUPE YAMA PLUS",
+      "delivery_fees": "inclus dans le prix",
+      "start_date": "2026-02-07",
+      "end_date": null,
+      "value": null,
+      "status": "active",
+      "notes": "Durée: 12 mois",
+      "created_at": "2026-02-07T01:02:07.229742+00:00",
+      "created_by": "admin@yama.sn",
+      "last_email_sent_at": "2026-02-07T01:06:55.204868+00:00",
+      "signatures": [],
+      "updated_at": "2026-02-15T17:08:06.926516+00:00"
+    }
+  ],
+  "partners": [
+    {
+      "partner_id": "PART-C073D456",
+      "name": "Moussa Diop",
+      "company_name": "Tech Solutions Sénégal",
+      "address": "123 Avenue Bourguiba",
+      "city": "Dakar",
+      "country": "Sénégal",
+      "email": "contact@techsolutions.sn",
+      "phone": "+221 77 123 45 67",
+      "ninea": "123456789",
+      "rccm": null,
+      "logo_url": null,
+      "notes": null,
+      "created_at": "2026-02-06T22:39:10.728047+00:00",
+      "updated_at": null
+    },
+    {
+      "partner_id": "PART-42CD0CB4",
+      "name": "Test Partner Contact",
+      "company_name": "Test Company SARL",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "country": "Sénégal",
+      "email": "test_1770418404.922516@example.com",
+      "phone": "+221771234567",
+      "ninea": "123456789",
+      "rccm": "SN DKR 2026 TEST",
+      "logo_url": null,
+      "notes": null,
+      "created_at": "2026-02-06T22:53:24.958396+00:00",
+      "updated_at": null
+    },
+    {
+      "partner_id": "PART-986F60F7",
+      "name": "Test Partner Contact",
+      "company_name": "Test Company SARL",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "country": "Sénégal",
+      "email": "test_1770418450.923435@example.com",
+      "phone": "+221771234567",
+      "ninea": "123456789",
+      "rccm": "SN DKR 2026 TEST",
+      "logo_url": null,
+      "notes": null,
+      "created_at": "2026-02-06T22:54:10.957471+00:00",
+      "updated_at": null
+    },
+    {
+      "partner_id": "PART-75C10572",
+      "name": "TEST_Email_Partner",
+      "company_name": "Test Email Company",
+      "address": null,
+      "city": "Dakar",
+      "country": "Sénégal",
+      "email": "test-email@example.com",
+      "phone": "+221771234567",
+      "ninea": null,
+      "rccm": null,
+      "logo_url": null,
+      "notes": null,
+      "created_at": "2026-02-07T00:40:53.132849+00:00",
+      "updated_at": null
+    },
+    {
+      "partner_id": "PART-98272425",
+      "name": "TEST_Email_Partner",
+      "company_name": "Test Email Company",
+      "address": null,
+      "city": "Dakar",
+      "country": "Sénégal",
+      "email": "test-email@example.com",
+      "phone": "+221771234567",
+      "ninea": null,
+      "rccm": null,
+      "logo_url": null,
+      "notes": null,
+      "created_at": "2026-02-07T00:42:08.906025+00:00",
+      "updated_at": null
+    },
+    {
+      "partner_id": "PART-D94B9AED",
+      "name": "TEST_Email_Partner",
+      "company_name": "Test Email Company",
+      "address": null,
+      "city": "Dakar",
+      "country": "Sénégal",
+      "email": "test-email@example.com",
+      "phone": "+221771234567",
+      "ninea": null,
+      "rccm": null,
+      "logo_url": null,
+      "notes": null,
+      "created_at": "2026-02-07T00:42:32.769820+00:00",
+      "updated_at": null
+    },
+    {
+      "partner_id": "PART-50ED18E2",
+      "name": "amadou",
+      "company_name": "diouf",
+      "address": "Dakar",
+      "city": "Dakar",
+      "country": "Sénégal",
+      "email": "amadoubourydiouf@gmail.com",
+      "phone": "",
+      "ninea": "",
+      "rccm": "",
+      "logo_url": "",
+      "notes": "",
+      "created_at": "2026-02-07T00:55:56.464999+00:00",
+      "updated_at": "2026-02-07T18:11:16.376653+00:00"
+    }
+  ],
+  "promo_codes": [
+    {
+      "promo_id": "promo_833f452d",
+      "code": "NOEL2024",
+      "discount_type": "percent",
+      "discount_value": 15,
+      "min_purchase": 50000,
+      "max_discount": null,
+      "categories": null,
+      "products": null,
+      "usage_limit": null,
+      "per_user_limit": 1,
+      "start_date": null,
+      "end_date": null,
+      "is_active": true,
+      "description": "Promotion de Noël - 15% de réduction",
+      "usage_count": 0,
+      "users_used": [],
+      "created_at": "2026-02-01T13:49:16.571618+00:00",
+      "created_by": "user_a12567020211"
+    },
+    {
+      "code": "SEMAINE06",
+      "created_at": "2026-02-04T17:15:08.795163+00:00",
+      "current_uses": 0,
+      "discount_percent": 20,
+      "expires_at": "2026-02-11T17:15:08.795153+00:00",
+      "max_uses": 1000,
+      "min_order": 15000
+    },
+    {
+      "code": "BIENVENUEE41F8C",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_36b37af21866",
+      "expires_at": "2026-03-07T05:56:41.200523+00:00",
+      "created_at": "2026-02-05T05:56:41.200529+00:00"
+    },
+    {
+      "code": "BIENVENUE00985D",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_8c34cb138e97",
+      "expires_at": "2026-03-07T05:57:48.426766+00:00",
+      "created_at": "2026-02-05T05:57:48.426773+00:00"
+    },
+    {
+      "code": "BIENVENUEDEC9B3",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_964dd8c1fe10",
+      "expires_at": "2026-03-07T06:05:01.056168+00:00",
+      "created_at": "2026-02-05T06:05:01.056173+00:00"
+    },
+    {
+      "code": "BIENVENUE4C418F",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_7b78d0a8881b",
+      "expires_at": "2026-03-07T15:35:01.272333+00:00",
+      "created_at": "2026-02-05T15:35:01.272339+00:00"
+    },
+    {
+      "code": "BIENVENUEDD4025",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_1001e7acc1c8",
+      "expires_at": "2026-03-07T15:35:01.543023+00:00",
+      "created_at": "2026-02-05T15:35:01.543029+00:00"
+    },
+    {
+      "code": "BIENVENUE5C0741",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_27a3d4d045b8",
+      "expires_at": "2026-03-07T15:35:04.216115+00:00",
+      "created_at": "2026-02-05T15:35:04.216121+00:00"
+    },
+    {
+      "code": "BIENVENUE62DE5A",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_de09f87f9e91",
+      "expires_at": "2026-03-07T15:35:27.364567+00:00",
+      "created_at": "2026-02-05T15:35:27.364573+00:00"
+    },
+    {
+      "code": "BIENVENUE9C3520",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_e10639b4bcc1",
+      "expires_at": "2026-03-07T15:35:27.625326+00:00",
+      "created_at": "2026-02-05T15:35:27.625332+00:00"
+    },
+    {
+      "code": "BIENVENUE7CD0B1",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_d7d2965a2966",
+      "expires_at": "2026-03-07T15:35:30.348258+00:00",
+      "created_at": "2026-02-05T15:35:30.348265+00:00"
+    },
+    {
+      "code": "BIENVENUEB49380",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_3628b3fc3b16",
+      "expires_at": "2026-03-07T17:55:16.572988+00:00",
+      "created_at": "2026-02-05T17:55:16.572994+00:00"
+    },
+    {
+      "code": "BIENVENUEAC7309",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_f34163be8691",
+      "expires_at": "2026-03-07T18:59:43.010550+00:00",
+      "created_at": "2026-02-05T18:59:43.010558+00:00"
+    },
+    {
+      "code": "BIENVENUE3DFA46",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_6a3137fe513c",
+      "expires_at": "2026-03-07T19:01:11.304599+00:00",
+      "created_at": "2026-02-05T19:01:11.304606+00:00"
+    },
+    {
+      "code": "BIENVENUEB59E45",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_f03b176c36af",
+      "expires_at": "2026-03-07T19:01:15.911043+00:00",
+      "created_at": "2026-02-05T19:01:15.911050+00:00"
+    },
+    {
+      "code": "BIENVENUE954057",
+      "discount_percent": 10,
+      "max_uses": 1,
+      "current_uses": 0,
+      "min_order": 20000,
+      "user_id": "user_07cc2c369c2f",
+      "expires_at": "2026-03-17T17:01:06.559084+00:00",
+      "created_at": "2026-02-15T17:01:06.559091+00:00"
+    }
+  ],
+  "flash_sales": [],
+  "reviews": [
+    {
+      "review_id": "rev_17d11b706028",
+      "product_id": "prod_iphone15pro",
+      "user_id": "user_a12567020211",
+      "user_name": "Admin YAMA+",
+      "rating": 5,
+      "title": "",
+      "comment": "",
+      "media": [],
+      "helpful_count": 0,
+      "verified_purchase": false,
+      "created_at": "2025-12-30T02:40:55.362333+00:00"
+    },
+    {
+      "review_id": "rev_61fa33e0",
+      "comment": "J'ai reçu mon iPhone très rapidement. La livraison était impeccable et le produit est authentique. Je recommande vivement YAMA+ !",
+      "created_at": "2026-02-01T13:49:57.624674+00:00",
+      "helpful_count": 12,
+      "product_id": "prod_iphone15pro",
+      "rating": 5,
+      "title": "Excellent produit !",
+      "user_id": "user_sample1",
+      "user_name": "Amadou Diallo",
+      "verified_purchase": true
+    },
+    {
+      "review_id": "rev_437cc591",
+      "comment": "Très satisfaite de mon achat. Le MacBook est parfait et l'équipe YAMA+ a été très réactive pour répondre à mes questions. Merci !",
+      "created_at": "2026-02-01T13:49:57.624688+00:00",
+      "helpful_count": 8,
+      "product_id": "prod_macbook_air",
+      "rating": 5,
+      "title": "Service client au top",
+      "user_id": "user_sample2",
+      "user_name": "Fatou Sow",
+      "verified_purchase": true
+    },
+    {
+      "review_id": "rev_8e4500c6",
+      "comment": "Les AirPods sont excellents. Son cristallin et réduction de bruit efficace. Livraison en 24h à Dakar comme promis.",
+      "created_at": "2026-02-01T13:49:57.624697+00:00",
+      "helpful_count": 5,
+      "product_id": "prod_airpods_pro",
+      "rating": 4,
+      "title": "Très bon rapport qualité/prix",
+      "user_id": "user_sample3",
+      "user_name": "Moussa Ndiaye",
+      "verified_purchase": true
+    },
+    {
+      "review_id": "rev_f952cb2f",
+      "comment": "Après avoir comparé plusieurs boutiques, YAMA+ offre les meilleurs prix et un service irréprochable. Mon nouveau téléphone est arrivé en parfait état.",
+      "created_at": "2026-02-01T13:49:57.624702+00:00",
+      "helpful_count": 15,
+      "product_id": "prod_iphone15pro",
+      "rating": 5,
+      "title": "Meilleur site au Sénégal",
+      "user_id": "user_sample4",
+      "user_name": "Aissatou Ba",
+      "verified_purchase": true
+    },
+    {
+      "review_id": "rev_4198344e",
+      "comment": "Ma TV Samsung est magnifique ! L'image est incroyable. L'équipe a même aidé à l'installation. Service 5 étoiles !",
+      "created_at": "2026-02-01T13:49:57.624706+00:00",
+      "helpful_count": 9,
+      "product_id": "prod_samsung_tv",
+      "rating": 5,
+      "title": "Qualité professionnelle",
+      "user_id": "user_sample5",
+      "user_name": "Ibrahima Fall",
+      "verified_purchase": true
+    }
+  ],
+  "blog_posts": [],
+  "push_subscriptions": [
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/test_9d6d14fcea484a2eb15d6c0fa6f18a78",
+      "created_at": "2026-02-05T18:51:04.114811+00:00",
+      "is_active": true,
+      "keys": {
+        "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+        "auth": "tBHItJI5svbpez7KI4CCXg"
+      },
+      "subscription_id": "push_a7d9a56b6053644f",
+      "user_email": null,
+      "user_id": null
+    },
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/test_811c1b1aa04f477aaddb937b74b5c9d2",
+      "created_at": "2026-02-05T18:51:04.181185+00:00",
+      "is_active": true,
+      "keys": {
+        "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+        "auth": "tBHItJI5svbpez7KI4CCXg"
+      },
+      "subscription_id": "push_8b2c3fe2369a12ee",
+      "user_email": null,
+      "user_id": null
+    },
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/test_unsub_db01b107b8fd47e7b8fe1d69d8587d0c",
+      "created_at": "2026-02-05T18:51:04.311394+00:00",
+      "is_active": false,
+      "keys": {
+        "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+        "auth": "tBHItJI5svbpez7KI4CCXg"
+      },
+      "subscription_id": "push_375d36503cdf9851",
+      "user_email": null,
+      "user_id": null
+    },
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/test_1025dabda0a346a8ac0ae577c9a2b939",
+      "created_at": "2026-02-05T18:51:52.841822+00:00",
+      "is_active": true,
+      "keys": {
+        "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+        "auth": "tBHItJI5svbpez7KI4CCXg"
+      },
+      "subscription_id": "push_e9a3062ad57e2985",
+      "user_email": null,
+      "user_id": null
+    },
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/test_836b74c569204c1db35d03c5a0256401",
+      "created_at": "2026-02-05T18:51:52.883013+00:00",
+      "is_active": true,
+      "keys": {
+        "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+        "auth": "tBHItJI5svbpez7KI4CCXg"
+      },
+      "subscription_id": "push_8403304174d53481",
+      "user_email": null,
+      "user_id": null
+    },
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/test_unsub_044fca9befb24cf6b5f6032cdf45054f",
+      "created_at": "2026-02-05T18:51:53.000006+00:00",
+      "is_active": false,
+      "keys": {
+        "p256dh": "BNcRdreALRFXTkOOUHK1EtK2wtaz5Ry4YfYCA_0QTpQtUbVlUls0VJXg7A8u-Ts1XbjhazAkj7I99e8QcYP7DkM",
+        "auth": "tBHItJI5svbpez7KI4CCXg"
+      },
+      "subscription_id": "push_2c34edc741c73cbc",
+      "user_email": null,
+      "user_id": null
+    },
+    {
+      "endpoint": "https://test.push.service/cb581b2c32c949c4b5bcaa8566b11d30",
+      "created_at": "2026-02-05T19:01:13.674468+00:00",
+      "is_active": true,
+      "keys": {
+        "p256dh": "test_p256dh_key",
+        "auth": "test_auth_key"
+      },
+      "subscription_id": "push_fa8cb8cc78e8d41c",
+      "user_email": null,
+      "user_id": null
+    },
+    {
+      "endpoint": "https://test.push.service/785a367ac4ed443fa6a00dfa4776b8d1",
+      "created_at": "2026-02-05T19:01:13.715435+00:00",
+      "is_active": true,
+      "keys": {
+        "p256dh": "test_key",
+        "auth": "test_auth"
+      },
+      "subscription_id": "push_dd131093603ca7df",
+      "user_email": null,
+      "user_id": null
+    }
+  ],
+  "game_rewards": [],
+  "subscribers": []
+}

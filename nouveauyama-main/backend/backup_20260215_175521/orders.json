@@ -1,0 +1,1496 @@
+[
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "Test Product",
+        "price": 100000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": "Test order"
+    },
+    "payment_method": "wave",
+    "subtotal": 100000,
+    "shipping_cost": 2500,
+    "total": 102500,
+    "order_id": "ORD-F1215A06",
+    "user_id": "user_1dc6be8833aa",
+    "payment_status": "paid",
+    "order_status": "shipped",
+    "created_at": "2025-12-23T04:33:50.821662+00:00",
+    "payment_initiated_at": "2026-02-15T16:43:25.190675+00:00",
+    "paytech_ref": "ORD-F1215A06_1771173804",
+    "paytech_token": "405gzwpmlnz5igx",
+    "status_history": [
+      {
+        "status": "processing",
+        "timestamp": "2025-12-23T19:53:13.829556+00:00",
+        "note": "Commande en cours de préparation"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-12-23T19:53:13.874776+00:00",
+        "note": "Colis expédié via Dakar Express"
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "Test Product",
+        "price": 100000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": "Test order"
+    },
+    "payment_method": "wave",
+    "subtotal": 100000,
+    "shipping_cost": 2500,
+    "total": 102500,
+    "order_id": "ORD-2C32A04F",
+    "user_id": "user_1dc6be8833aa",
+    "payment_status": "paid",
+    "order_status": "processing",
+    "created_at": "2025-12-23T14:15:42.247586+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Admin YAMA+",
+      "phone": "+221770000000",
+      "address": "8322 RUE GUYENNE",
+      "city": "Montreeal",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "wave",
+    "subtotal": 1149000,
+    "shipping_cost": 2500,
+    "total": 1151500,
+    "order_id": "ORD-34DD43CC",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-23T15:51:51.215865+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_airpods_pro",
+        "name": "AirPods Pro 2",
+        "price": 189000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Admin YAMA+",
+      "phone": "+221770000000",
+      "address": "8322 RUE GUYENNE",
+      "city": "Montreeal",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "wave",
+    "subtotal": 189000,
+    "shipping_cost": 2500,
+    "total": 191500,
+    "order_id": "ORD-F7C1D36E",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-23T16:05:02.430336+00:00",
+    "payment_initiated_at": "2025-12-23T16:05:03.226203+00:00",
+    "paytech_ref": "ORD-F7C1D36E_1766505902",
+    "paytech_token": "405gzwpmjis069o"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_airpods_pro",
+        "name": "AirPods Pro 2",
+        "price": 189000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Admin YAMA+",
+      "phone": "+221770000000",
+      "address": "13500",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "orange_money",
+    "subtotal": 189000,
+    "shipping_cost": 2500,
+    "total": 191500,
+    "order_id": "ORD-438F34D9",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-23T16:10:44.202815+00:00",
+    "payment_initiated_at": "2025-12-23T16:10:45.137707+00:00",
+    "paytech_ref": "ORD-438F34D9_1766506244",
+    "paytech_token": "405gzopmjis7i34"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_airpods_pro",
+        "name": "AirPods Pro 2",
+        "price": 189000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Admin YAMA+",
+      "phone": "+221770000000",
+      "address": "8320 RUE DE GUYENNE",
+      "city": "Montréal, Québec",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "wave",
+    "subtotal": 189000,
+    "shipping_cost": 2500,
+    "total": 191500,
+    "order_id": "ORD-152B64E3",
+    "user_id": "user_a12567020211",
+    "payment_status": "paid",
+    "order_status": "delivered",
+    "created_at": "2025-12-23T16:12:42.694284+00:00",
+    "payment_initiated_at": "2025-12-23T16:12:43.500080+00:00",
+    "paytech_ref": "ORD-152B64E3_1766506362",
+    "paytech_token": "eey3kpmjisa1ew",
+    "paid_at": "2025-12-23T16:13:34.411096+00:00",
+    "payment_method_used": "Wave"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "Test Product",
+        "price": 100000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": "Test order"
+    },
+    "payment_method": "wave",
+    "subtotal": 100000,
+    "shipping_cost": 2500,
+    "total": 102500,
+    "order_id": "ORD-085D24DB",
+    "user_id": "user_a12567020211",
+    "payment_status": "paid",
+    "order_status": "processing",
+    "created_at": "2025-12-23T19:33:38.491581+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "Test Product",
+        "price": 100000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": "Test order"
+    },
+    "payment_method": "wave",
+    "subtotal": 100000,
+    "shipping_cost": 2500,
+    "total": 102500,
+    "order_id": "ORD-FC4D5D96",
+    "user_id": "user_a12567020211",
+    "payment_status": "paid",
+    "order_status": "processing",
+    "created_at": "2025-12-23T19:34:39.574186+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "Test Product",
+        "price": 100000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": "Test order"
+    },
+    "payment_method": "wave",
+    "subtotal": 100000,
+    "shipping_cost": 2500,
+    "total": 102500,
+    "order_id": "ORD-F110276A",
+    "user_id": "user_a12567020211",
+    "payment_status": "paid",
+    "order_status": "processing",
+    "created_at": "2025-12-23T19:56:04.634057+00:00",
+    "status_history": [
+      {
+        "status": "shipped",
+        "timestamp": "2025-12-23T19:56:04.699412+00:00",
+        "note": "Test status update for tracking"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-12-23T19:56:04.793714+00:00",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_dyson_v15",
+        "name": "Dyson V15 Detect",
+        "price": 549000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "fass paillotte Dakar 13500",
+      "city": "Dakat",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "wave",
+    "subtotal": 549000,
+    "shipping_cost": 2500,
+    "total": 551500,
+    "order_id": "ORD-FC6AE91C",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "paid",
+    "order_status": "processing",
+    "created_at": "2025-12-23T20:02:12.825615+00:00",
+    "payment_initiated_at": "2025-12-23T20:02:13.648310+00:00",
+    "paytech_ref": "ORD-FC6AE91C_1766520132",
+    "paytech_token": "eey3kpmjj0h6iz",
+    "paid_at": "2025-12-23T20:02:37.750454+00:00",
+    "payment_method_used": "Wave"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Fass",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "wave",
+    "subtotal": 1299000,
+    "shipping_cost": 2500,
+    "total": 1301500,
+    "order_id": "ORD-57ACA0D4",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-24T02:03:45.319235+00:00",
+    "payment_initiated_at": "2025-12-24T02:03:46.239001+00:00",
+    "paytech_ref": "ORD-57ACA0D4_1766541825",
+    "paytech_token": "405gzwpmjjde4hl"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 80000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Mame Boury Diouf",
+      "phone": "778498137",
+      "address": "Fass",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "wave",
+    "subtotal": 80000,
+    "shipping_cost": 2500,
+    "total": 82500,
+    "order_id": "ORD-B1B859DE",
+    "user_id": "user_6a61dd9522c5",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-24T03:38:43.535584+00:00",
+    "payment_initiated_at": "2025-12-24T03:38:44.348590+00:00",
+    "paytech_ref": "ORD-B1B859DE_1766547523",
+    "paytech_token": "405gzwpmjjgs9ck"
+  },
+  {
+    "items": [
+      {
+        "product_id": "test123",
+        "name": "Test Product",
+        "price": 50000,
+        "quantity": 2,
+        "image": "/test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test User",
+      "phone": "+221770000000",
+      "address": "123 Test St",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "wave",
+    "subtotal": 100000,
+    "shipping_cost": 2500,
+    "total": 102500,
+    "order_id": "ORD-52A7FEE4",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-24T03:50:55.992575+00:00",
+    "payment_initiated_at": "2025-12-24T03:51:06.878931+00:00",
+    "paytech_ref": "ORD-52A7FEE4_1766548266",
+    "paytech_token": "eey3kpmjjh869x"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Lamine ",
+      "phone": "7784981377",
+      "address": "Medina fall",
+      "city": "Thies",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "wave",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-A2BCE3C4",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "delivered",
+    "created_at": "2025-12-27T19:10:44.418328+00:00",
+    "payment_initiated_at": "2025-12-27T19:10:45.340578+00:00",
+    "paytech_ref": "ORD-A2BCE3C4_1766862644",
+    "paytech_token": "405gzvpmjooee8u",
+    "status_history": [
+      {
+        "status": "delivered",
+        "timestamp": "2025-12-27T19:11:42.917596+00:00",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test",
+        "name": "Test Product",
+        "price": 15000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Client",
+      "phone": "+221770000000",
+      "address": "Test Address",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "wave",
+    "subtotal": 15000,
+    "shipping_cost": 1500,
+    "total": 16500,
+    "order_id": "ORD-475A5165",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-30T01:57:50.990094+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test123",
+        "name": "Test Product for Wave",
+        "price": 25000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "wave",
+    "subtotal": 25000,
+    "shipping_cost": 2500,
+    "total": 27500,
+    "order_id": "ORD-A23C215B",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-30T02:00:01.983861+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test123",
+        "name": "Test Product for Orange Money",
+        "price": 25000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "orange_money",
+    "subtotal": 25000,
+    "shipping_cost": 2500,
+    "total": 27500,
+    "order_id": "ORD-54C13477",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-30T02:00:02.045314+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test123",
+        "name": "Test Product for Free Money",
+        "price": 25000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "free_money",
+    "subtotal": 25000,
+    "shipping_cost": 2500,
+    "total": 27500,
+    "order_id": "ORD-676F8314",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-30T02:00:02.061534+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test123",
+        "name": "Test Product for Card",
+        "price": 25000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "card",
+    "subtotal": 25000,
+    "shipping_cost": 2500,
+    "total": 27500,
+    "order_id": "ORD-FB9E9C33",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-30T02:00:02.072090+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test123",
+        "name": "Test Product for Cash on Delivery",
+        "price": 25000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "cash",
+    "subtotal": 25000,
+    "shipping_cost": 2500,
+    "total": 27500,
+    "order_id": "ORD-DAA9940C",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-30T02:00:02.127539+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test123",
+        "name": "Test Product for Notification",
+        "price": 50000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Fass Paillote",
+      "region": "Dakar",
+      "notes": "Test order for admin notification"
+    },
+    "payment_method": "free_money",
+    "subtotal": 50000,
+    "shipping_cost": 1500,
+    "total": 51500,
+    "order_id": "ORD-7947D842",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2025-12-30T02:00:02.237967+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_test123",
+        "name": "Test Product for Notification",
+        "price": 50000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Fass Paillote",
+      "region": "Dakar",
+      "notes": "Test order for admin notification"
+    },
+    "payment_method": "free_money",
+    "subtotal": 50000,
+    "shipping_cost": 1500,
+    "total": 51500,
+    "order_id": "ORD-9E54C9F2",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "delivered",
+    "created_at": "2025-12-30T02:00:02.250052+00:00",
+    "status_history": [
+      {
+        "status": "processing",
+        "timestamp": "2025-12-30T02:00:02.306088+00:00",
+        "note": "Order is being prepared"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2025-12-30T02:00:02.317086+00:00",
+        "note": "Order has been shipped"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2025-12-30T02:00:02.330439+00:00",
+        "note": "Order delivered successfully"
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "Test Product",
+        "price": 100000,
+        "quantity": 1,
+        "image": "test.jpg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Customer",
+      "phone": "+221771234567",
+      "address": "123 Test Street",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": "Test order"
+    },
+    "payment_method": "wave",
+    "subtotal": 100000,
+    "shipping_cost": 2500,
+    "total": 102500,
+    "order_id": "ORD-38B72776",
+    "user_id": "user_a12567020211",
+    "payment_status": "paid",
+    "order_status": "processing",
+    "created_at": "2025-12-30T02:40:55.417126+00:00",
+    "status_history": [
+      {
+        "status": "shipped",
+        "timestamp": "2025-12-30T02:40:55.478432+00:00",
+        "note": "Test status update for tracking"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2025-12-30T02:40:55.616584+00:00",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 80000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Boury Diouf",
+      "phone": "778498137",
+      "address": "fass paillotte",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 80000,
+    "shipping_cost": 1500,
+    "total": 81500,
+    "order_id": "ORD-59D090DA",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-01T16:41:58.779523+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-47F5B5F1",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-01T17:51:23.399202+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-B042ABB2",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-02T19:48:50.856128+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Ahhh ",
+      "phone": "778498137",
+      "address": "Fasd",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1035600,
+    "order_id": "ORD-D1069EA0",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T03:54:42.015419+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-D64D61F2",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T17:36:30.621023+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "cash",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-5EC5BAD4",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T17:36:39.924925+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "cash",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-E427CF1E",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T17:36:41.431632+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "cash",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-BF912541",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T17:36:42.408866+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Louga",
+      "notes": ""
+    },
+    "payment_method": "cash",
+    "subtotal": 1149000,
+    "shipping_cost": 3500,
+    "total": 1152500,
+    "order_id": "ORD-4CD79C27",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T17:36:51.794674+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_macbook_air",
+        "name": "MacBook Air M3",
+        "price": 1149000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "cash",
+    "subtotal": 1149000,
+    "shipping_cost": 1500,
+    "total": 1150500,
+    "order_id": "ORD-7048FE10",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T17:37:10.581804+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_81a975bfddff",
+        "name": "iPhone 11",
+        "price": 3000,
+        "quantity": 1,
+        "image": "/api/uploads/50a58344b48f4dbbbe274a023ae6b2bc.jpeg"
+      }
+    ],
+    "shipping": {
+      "full_name": "amadou boury diouf",
+      "phone": "778498137",
+      "address": "Dakar",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 3000,
+    "shipping_cost": 1500,
+    "total": 4500,
+    "order_id": "ORD-416DB785",
+    "user_id": "user_c4b88cf80bb2",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-04T17:37:38.995200+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Amadou ",
+      "phone": "778498137",
+      "address": "Fass",
+      "city": "Medina",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1299000,
+    "shipping_cost": 1500,
+    "total": 1300500,
+    "order_id": "ORD-CDA502FC",
+    "user_id": "user_964dd8c1fe10",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:06:02.909442+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Amadou ",
+      "phone": "778498137",
+      "address": "Fass",
+      "city": "Medina",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1299000,
+    "shipping_cost": 1500,
+    "total": 1300500,
+    "order_id": "ORD-8D94D35C",
+    "user_id": "user_964dd8c1fe10",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:06:06.359458+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_bmw_x5",
+        "name": "BMW X5 xDrive40i",
+        "price": 52000000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Amadou ",
+      "phone": "775144737",
+      "address": "Fass",
+      "city": "Medina",
+      "region": "Dakar",
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 52000000,
+    "shipping_cost": 1500,
+    "total": 52001500,
+    "order_id": "ORD-D6CC15DC",
+    "user_id": "user_964dd8c1fe10",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:06:51.700903+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Client",
+      "phone": "+221 77 123 45 67",
+      "address": "123 Rue Test",
+      "city": "Dakar",
+      "region": "Dakar",
+      "notes": null
+    },
+    "payment_method": "cash_on_delivery",
+    "subtotal": 1299000,
+    "shipping_cost": 2500,
+    "total": 1301500,
+    "order_id": "ORD-B6749196",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:27:53.724693+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Client",
+      "email": "test@example.com",
+      "phone": "+221 77 123 45 67",
+      "address": "123 Rue Test",
+      "city": "Dakar",
+      "region": "Dakar",
+      "neighborhood": "Plateau",
+      "notes": null
+    },
+    "payment_method": "cash_on_delivery",
+    "subtotal": 1299000,
+    "shipping_cost": 2500,
+    "total": 1301500,
+    "order_id": "ORD-A08848E8",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:29:40.471460+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Test Client 2",
+      "email": "test2@example.com",
+      "phone": "+221 77 123 45 67",
+      "address": "456 Avenue Test",
+      "city": "Dakar",
+      "region": "Dakar",
+      "neighborhood": "Almadies",
+      "notes": null
+    },
+    "payment_method": "cash_on_delivery",
+    "subtotal": 1299000,
+    "shipping_cost": 2500,
+    "total": 1301500,
+    "order_id": "ORD-55B4CD3E",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:31:10.832133+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Client Test 3",
+      "email": "client3@example.com",
+      "phone": "+221 77 999 88 77",
+      "address": "789 Boulevard Test",
+      "city": "Dakar",
+      "region": "Dakar",
+      "neighborhood": "Mermoz",
+      "notes": null
+    },
+    "payment_method": "cash_on_delivery",
+    "subtotal": 1299000,
+    "shipping_cost": 2500,
+    "total": 1301500,
+    "order_id": "ORD-4642DB37",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:32:02.604584+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Bbto ",
+      "email": "amadoubourydiouf@gmail.com",
+      "phone": "78525555",
+      "address": "778498137",
+      "city": "Castor",
+      "region": "Dakar",
+      "neighborhood": null,
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1299000,
+    "shipping_cost": 2000,
+    "total": 1301000,
+    "order_id": "ORD-D1F119D9",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T06:32:17.259449+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_iphone15pro",
+        "name": "iPhone 15 Pro Max",
+        "price": 1299000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Amadou Diouf ",
+      "email": "amadoubourydiouf@gmail.com",
+      "phone": "778498137",
+      "address": "Fass ",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "neighborhood": null,
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 1299000,
+    "shipping_cost": 1500,
+    "total": 1300500,
+    "order_id": "ORD-55FC31B9",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T15:44:56.257512+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_galaxy_watch",
+        "name": "Galaxy Watch 6 Classic",
+        "price": 279000,
+        "quantity": 2,
+        "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Admin YAMA+",
+      "email": "admin@yama.sn",
+      "phone": "+221771112233",
+      "address": "Fass ",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "neighborhood": null,
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 558000,
+    "shipping_cost": 1500,
+    "total": 559500,
+    "order_id": "ORD-592BFCE2",
+    "user_id": "user_a12567020211",
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-05T16:02:56.434010+00:00",
+    "status_history": [
+      {
+        "status": "processing",
+        "timestamp": "2026-02-05T18:16:42.120182+00:00",
+        "note": ""
+      },
+      {
+        "status": "pending",
+        "timestamp": "2026-02-05T18:16:42.231636+00:00",
+        "note": ""
+      },
+      {
+        "status": "processing",
+        "timestamp": "2026-02-05T18:59:40.658675+00:00",
+        "note": ""
+      },
+      {
+        "status": "pending",
+        "timestamp": "2026-02-05T18:59:40.747509+00:00",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_airpods_pro",
+        "name": "AirPods Pro 2",
+        "price": 189000,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+      },
+      {
+        "product_id": "prod_serum_visage",
+        "name": "Sérum Éclat Vitamine C",
+        "price": 45000,
+        "quantity": 1,
+        "image": "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?w=800"
+      }
+    ],
+    "shipping": {
+      "full_name": "Ndèye Aminata diouf ",
+      "email": "ndeyeaminatadiouf2006@gmail.com",
+      "phone": "785987518",
+      "address": "Dakar ",
+      "city": "Fass Paillote",
+      "region": "Dakar",
+      "neighborhood": null,
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 234000,
+    "shipping_cost": 1500,
+    "total": 235500,
+    "order_id": "ORD-1493DB96",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-06T14:28:21.380689+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_6adf5637d3c3",
+        "name": "Montre connectée iQIBLA",
+        "price": 100,
+        "quantity": 1,
+        "image": "/api/uploads/57ff6c30b5ea417682149ffd1bfb5eb2.jpeg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Amadou Boury Diouf",
+      "email": "amadoubourydiouf@gmail.com",
+      "phone": "778498137",
+      "address": "Fass",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "neighborhood": null,
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 100,
+    "shipping_cost": 1500,
+    "total": 1600,
+    "order_id": "ORD-5D234355",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "pending",
+    "created_at": "2026-02-06T21:13:34.989448+00:00"
+  },
+  {
+    "order_id": "TEST-C311DDCA",
+    "items": [
+      {
+        "name": "Test Product",
+        "price": 10000,
+        "quantity": 1
+      }
+    ],
+    "total": 10000,
+    "status": "pending",
+    "payment_method": "card",
+    "shipping": {
+      "full_name": "Test Client",
+      "email": "test@test.com",
+      "phone": "771234567",
+      "address": "Test Address",
+      "city": "Dakar",
+      "region": "Dakar"
+    },
+    "created_at": "2026-02-06T21:22:17.477863+00:00",
+    "payment_initiated_at": "2026-02-06T21:22:27.139825+00:00",
+    "paytech_ref": "TEST-C311DDCA_1770412946",
+    "paytech_token": "405gznqmlbe5omx"
+  },
+  {
+    "items": [
+      {
+        "product_id": "prod_6adf5637d3c3",
+        "name": "Montre connectée iQIBLA",
+        "price": 100,
+        "quantity": 1,
+        "image": "/api/uploads/57ff6c30b5ea417682149ffd1bfb5eb2.jpeg"
+      }
+    ],
+    "shipping": {
+      "full_name": "Amadou Boury Diouf ",
+      "email": "amadoubourydiouf@gmail.com",
+      "phone": "778498137",
+      "address": "Fass ",
+      "city": "Dakar Centre",
+      "region": "Dakar",
+      "neighborhood": null,
+      "notes": ""
+    },
+    "payment_method": "mobile_money",
+    "subtotal": 100,
+    "shipping_cost": 1500,
+    "total": 1600,
+    "order_id": "ORD-9279EBBB",
+    "user_id": null,
+    "payment_status": "pending",
+    "order_status": "delivered",
+    "created_at": "2026-02-06T21:25:58.069925+00:00",
+    "payment_initiated_at": "2026-02-06T21:25:58.976182+00:00",
+    "paytech_ref": "ORD-9279EBBB_1770413158",
+    "paytech_token": "405gznqmlbea83f",
+    "status_history": [
+      {
+        "status": "shipped",
+        "timestamp": "2026-02-15T15:06:40.347066+00:00",
+        "note": ""
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2026-02-15T15:06:43.484765+00:00",
+        "note": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "contract_id": "CTR-0B5A17A8",
+    "contract_number": "YMP-CTR-2026-001",
+    "partner_id": "PART-C073D456",
+    "contract_type": "partnership",
+    "title": "Contrat de Partenariat Commercial",
+    "description": "Partenariat pour la distribution de produits electroniques",
+    "clauses": [
+      {
+        "title": "Article 1 - Objet",
+        "content": "Le present contrat definit les modalites de partenariat entre les parties.",
+        "is_editable": true
+      },
+      {
+        "title": "Article 2 - Duree",
+        "content": "Le contrat est valable pour une duree de 12 mois renouvelable.",
+        "is_editable": true
+      }
+    ],
+    "start_date": "2026-02-01",
+    "end_date": "2027-01-31",
+    "value": 5000000.0,
+    "notes": null,
+    "status": "draft",
+    "created_at": "2026-02-06T22:44:13.909167+00:00",
+    "updated_at": null,
+    "signed_at": null,
+    "pdf_url": null
+  },
+  {
+    "contract_id": "CTR-87F24764",
+    "contract_number": "YMP-CTR-2026-002",
+    "partner_id": "PART-75C10572",
+    "contract_type": "partnership",
+    "title": "TEST_Contract_Email_Test",
+    "description": "Contract for email testing",
+    "clauses": [
+      {
+        "title": "Article 1",
+        "content": "Test clause content",
+        "is_editable": true
+      }
+    ],
+    "start_date": "2026-02-07",
+    "end_date": null,
+    "value": 100000.0,
+    "notes": null,
+    "status": "draft",
+    "created_at": "2026-02-07T00:40:56.290253+00:00",
+    "updated_at": null,
+    "signed_at": null,
+    "pdf_url": null,
+    "last_email_sent_at": "2026-02-07T00:40:57.247989+00:00"
+  },
+  {
+    "contract_id": "CTR-BFFCE7FC",
+    "contract_number": "YMP-CTR-2026-003",
+    "partner_id": "PART-98272425",
+    "contract_type": "partnership",
+    "title": "TEST_Contract_Email_Test",
+    "description": "Contract for email testing",
+    "clauses": [
+      {
+        "title": "Article 1",
+        "content": "Test clause content",
+        "is_editable": true
+      }
+    ],
+    "start_date": "2026-02-07",
+    "end_date": null,
+    "value": 100000.0,
+    "notes": null,
+    "status": "draft",
+    "created_at": "2026-02-07T00:42:12.356530+00:00",
+    "updated_at": null,
+    "signed_at": null,
+    "pdf_url": null,
+    "last_email_sent_at": "2026-02-07T00:42:13.456905+00:00"
+  },
+  {
+    "contract_id": "CTR-44036D10",
+    "contract_number": "YMP-CTR-2026-004",
+    "partner_id": "PART-D94B9AED",
+    "contract_type": "partnership",
+    "title": "TEST_Contract_Email_Test",
+    "description": "Contract for email testing",
+    "clauses": [
+      {
+        "title": "Article 1",
+        "content": "Test clause content",
+        "is_editable": true
+      }
+    ],
+    "start_date": "2026-02-07",
+    "end_date": null,
+    "value": 100000.0,
+    "notes": null,
+    "status": "draft",
+    "created_at": "2026-02-07T00:42:35.962721+00:00",
+    "updated_at": null,
+    "signed_at": null,
+    "pdf_url": null,
+    "last_email_sent_at": "2026-02-07T00:42:37.043557+00:00"
+  },
+  {
+    "contract_id": "CTR-F7AF50F8",
+    "contract_number": "YMP-CTR-2026-005",
+    "contract_type": "partnership",
+    "partner_id": "PART-50ED18E2",
+    "partner_name": "amadou",
+    "partner_email": "amadoubourydiouf@gmail.com",
+    "title": "Contrat de partenariat commercial",
+    "description": "Partenariat commercial avec commission de 15.0%",
+    "clauses": [
+      {
+        "title": "Article 1 - Objet",
+        "content": "Partenariat pour commercialisation de produits/services"
+      },
+      {
+        "title": "Article 2 - Engagements Partenaire",
+        "content": "Qualité, délais, authenticité, informations exactes"
+      },
+      {
+        "title": "Article 3 - Engagements YAMA+",
+        "content": "Promotion, visibilité, facilitation, suivi paiements"
+      },
+      {
+        "title": "Article 4 - Commission",
+        "content": "15.0%"
+      },
+      {
+        "title": "Article 5 - Paiement",
+        "content": "chaque mois via Wave / Orange Money / Virement bancaire"
+      },
+      {
+        "title": "Article 6 - Livraison",
+        "content": "Par GROUPE YAMA PLUS, frais inclus dans le prix"
+      },
+      {
+        "title": "Article 7 - Retour/Garantie",
+        "content": "Politique retour YAMA+"
+      },
+      {
+        "title": "Article 8 - Confidentialité",
+        "content": "Informations confidentielles"
+      },
+      {
+        "title": "Article 9 - Durée",
+        "content": "12 mois, renouvelable"
+      },
+      {
+        "title": "Article 10 - Résiliation",
+        "content": "Préavis 15 jours"
+      },
+      {
+        "title": "Article 11 - Litiges",
+        "content": "Juridictions Dakar"
+      }
+    ],
+    "commission_percent": 15.0,
+    "payment_frequency": "chaque mois",
+    "payment_method": "Wave / Orange Money / Virement bancaire",
+    "delivery_responsibility": "GROUPE YAMA PLUS",
+    "delivery_fees": "inclus dans le prix",
+    "start_date": "2026-02-07",
+    "end_date": null,
+    "value": null,
+    "status": "active",
+    "notes": "Durée: 12 mois",
+    "created_at": "2026-02-07T01:02:07.229742+00:00",
+    "created_by": "admin@yama.sn",
+    "last_email_sent_at": "2026-02-07T01:06:55.204868+00:00",
+    "signatures": [],
+    "updated_at": "2026-02-15T17:08:06.926516+00:00"
+  }
+]

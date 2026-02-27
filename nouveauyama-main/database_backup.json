@@ -1,0 +1,548 @@
+{
+  "products": [
+    {
+      "product_id": "prod_iphone15pro",
+      "name": "iPhone 15 Pro Max",
+      "description": "Le smartphone le plus avancé. Puce A17 Pro, système de caméra révolutionnaire, design en titane. Une puissance inégalée pour créer, jouer et travailler.",
+      "short_description": "Puce A17 Pro. Titane. Caméra 48MP.",
+      "price": 1299000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": "smartphones",
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800"
+      ],
+      "stock": 13,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "storage": "256GB",
+        "color": "Titane Naturel",
+        "display": "6.7\""
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_macbook_air",
+      "name": "MacBook Air M3",
+      "description": "Fin. Léger. Puissant. Le MacBook Air avec puce M3 offre une autonomie exceptionnelle et des performances révolutionnaires dans un design silencieux sans ventilateur.",
+      "short_description": "Puce M3. 18h d'autonomie. Silencieux.",
+      "price": 1149000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": "ordinateurs",
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800"
+      ],
+      "stock": 10,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "display": "13.6\" Liquid Retina"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_airpods_pro",
+      "name": "AirPods Pro 2",
+      "description": "Son immersif. Réduction de bruit active. Transparence adaptative. Audio spatial personnalisé. L'expérience audio ultime.",
+      "short_description": "ANC. Audio Spatial. USB-C.",
+      "price": 189000,
+      "original_price": 219000,
+      "category": "electronique",
+      "subcategory": "audio",
+      "images": [
+        "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800"
+      ],
+      "stock": 30,
+      "featured": true,
+      "is_new": false,
+      "is_promo": true,
+      "specs": {
+        "battery": "6h (30h avec boîtier)",
+        "noise_cancellation": "Active"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_samsung_tv",
+      "name": "Samsung Neo QLED 65\"",
+      "description": "Vivez une expérience visuelle extraordinaire. Technologie Quantum Matrix, processeur Neural Quantum 4K, design ultra-fin. Le summum du divertissement.",
+      "short_description": "4K. 120Hz. HDR10+. Smart TV.",
+      "price": 1599000,
+      "original_price": 1899000,
+      "category": "electronique",
+      "subcategory": "tv",
+      "images": [
+        "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800"
+      ],
+      "stock": 5,
+      "featured": true,
+      "is_new": false,
+      "is_promo": true,
+      "specs": {
+        "resolution": "4K",
+        "refresh": "120Hz",
+        "hdr": "HDR10+"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_galaxy_watch",
+      "name": "Galaxy Watch 6 Classic",
+      "description": "La montre connectée premium. Lunette rotative iconique, suivi santé avancé, design intemporel. Votre compagnon intelligent au quotidien.",
+      "short_description": "Lunette rotative. Suivi santé complet.",
+      "price": 279000,
+      "original_price": null,
+      "category": "electronique",
+      "subcategory": "montres",
+      "images": [
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800"
+      ],
+      "stock": 20,
+      "featured": false,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "size": "47mm",
+        "battery": "40h",
+        "water_resistance": "5ATM"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_dyson_v15",
+      "name": "Dyson V15 Detect",
+      "description": "L'aspirateur le plus intelligent. Laser révélateur de poussière, capteur piézo, écran LCD. Une propreté scientifiquement prouvée.",
+      "short_description": "Laser. 60min d'autonomie. Sans fil.",
+      "price": 549000,
+      "original_price": null,
+      "category": "electromenager",
+      "subcategory": "aspirateurs",
+      "images": [
+        "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800"
+      ],
+      "stock": 12,
+      "featured": true,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "battery": "60min",
+        "power": "240AW",
+        "weight": "3kg"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_nespresso",
+      "name": "Nespresso Vertuo Next",
+      "description": "Le café parfait en un geste. Technologie Centrifusion, reconnaissance des capsules, design compact. L'art du café à la maison.",
+      "short_description": "Centrifusion. 5 tailles de tasse.",
+      "price": 119000,
+      "original_price": 149000,
+      "category": "electromenager",
+      "subcategory": "cafe",
+      "images": [
+        "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800"
+      ],
+      "stock": 25,
+      "featured": false,
+      "is_new": false,
+      "is_promo": true,
+      "specs": {
+        "pressure": "19 bars",
+        "water_tank": "1.1L",
+        "heat_time": "15s"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_samsung_fridge",
+      "name": "Samsung Family Hub",
+      "description": "Le réfrigérateur connecté. Écran tactile 21\", caméras internes, gestion des courses intelligente. La cuisine du futur, aujourd'hui.",
+      "short_description": "Écran 21\". Caméras internes. WiFi.",
+      "price": 2499000,
+      "original_price": null,
+      "category": "electromenager",
+      "subcategory": "refrigerateurs",
+      "images": [
+        "https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?w=800"
+      ],
+      "stock": 3,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "capacity": "614L",
+        "class": "A++",
+        "features": "Family Hub"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_airfryer",
+      "name": "Philips Airfryer XXL",
+      "description": "Cuisinez sain sans compromis. Technologie Twin TurboStar, grande capacité, résultats croustillants. Le plaisir de la friture sans huile.",
+      "short_description": "XXL. 90% moins de graisse.",
+      "price": 159000,
+      "original_price": null,
+      "category": "electromenager",
+      "subcategory": "cuisine",
+      "images": [
+        "https://images.unsplash.com/photo-1648145765181-2e5ccaee0ad2?w=800"
+      ],
+      "stock": 18,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "capacity": "1.4kg",
+        "power": "2225W",
+        "programs": "5"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_sofa_scandinave",
+      "name": "Canapé Oslo 3 Places",
+      "description": "L'élégance scandinave. Lignes épurées, confort optimal, pieds en bois massif. Un classique intemporel pour votre salon.",
+      "short_description": "Design scandinave. Tissu premium.",
+      "price": 459000,
+      "original_price": 549000,
+      "category": "decoration",
+      "subcategory": "canapes",
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800"
+      ],
+      "stock": 6,
+      "featured": true,
+      "is_new": false,
+      "is_promo": true,
+      "specs": {
+        "seats": "3",
+        "material": "Tissu",
+        "color": "Gris"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_lampe_arc",
+      "name": "Lampe Arc Design",
+      "description": "Lumière sculpturale. Arc élégant en acier brossé, base marbre, éclairage d'ambiance. Une pièce maîtresse pour votre intérieur.",
+      "short_description": "Arc 180cm. Base marbre.",
+      "price": 189000,
+      "original_price": null,
+      "category": "decoration",
+      "subcategory": "luminaires",
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800"
+      ],
+      "stock": 10,
+      "featured": false,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "height": "180cm",
+        "material": "Acier/Marbre",
+        "bulb": "E27"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_table_basse",
+      "name": "Table Basse Minimaliste",
+      "description": "Simplicité raffinée. Plateau en verre trempé, structure en chêne massif, design épuré. L'essentiel, magnifié.",
+      "short_description": "Verre & chêne. 120x60cm.",
+      "price": 279000,
+      "original_price": null,
+      "category": "decoration",
+      "subcategory": "tables",
+      "images": [
+        "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?w=800"
+      ],
+      "stock": 8,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "dimensions": "120x60x40cm",
+        "material": "Verre/Chêne"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_dyson_airwrap",
+      "name": "Dyson Airwrap Complete",
+      "description": "Coiffure réinventée. Effet Coanda pour des boucles et du volume sans chaleur extrême. Tous les styles, zéro dommage.",
+      "short_description": "Effet Coanda. 6 accessoires.",
+      "price": 449000,
+      "original_price": null,
+      "category": "beaute",
+      "subcategory": "cheveux",
+      "images": [
+        "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=800"
+      ],
+      "stock": 14,
+      "featured": true,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "attachments": "6",
+        "heat": "150°C max",
+        "voltage": "220V"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_serum_visage",
+      "name": "Sérum Éclat Vitamine C",
+      "description": "Révélez votre éclat. Vitamine C stabilisée 15%, acide hyaluronique, antioxydants. Une peau lumineuse et protégée.",
+      "short_description": "Vitamine C 15%. Anti-âge.",
+      "price": 45000,
+      "original_price": 55000,
+      "category": "beaute",
+      "subcategory": "soins",
+      "images": [
+        "https://images.pexels.com/photos/3762882/pexels-photo-3762882.jpeg?w=800"
+      ],
+      "stock": 40,
+      "featured": false,
+      "is_new": true,
+      "is_promo": true,
+      "specs": {
+        "volume": "30ml",
+        "key_ingredient": "Vitamine C 15%"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_massage_gun",
+      "name": "Pistolet Massage Theragun",
+      "description": "Récupération professionnelle. Thérapie percussive puissante, 6 têtes interchangeables, application connectée. Soulagez vos muscles en profondeur.",
+      "short_description": "2400 percussions/min. 6 têtes.",
+      "price": 299000,
+      "original_price": null,
+      "category": "beaute",
+      "subcategory": "massage",
+      "images": [
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800"
+      ],
+      "stock": 16,
+      "featured": false,
+      "is_new": false,
+      "is_promo": false,
+      "specs": {
+        "speed": "2400rpm",
+        "battery": "150min",
+        "noise": "Silencieux"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "product_id": "prod_parfum_luxe",
+      "name": "Eau de Parfum Prestige",
+      "description": "Signature olfactive. Notes de bergamote, jasmin et bois de santal. Une fragrance raffinée qui laisse une empreinte mémorable.",
+      "short_description": "100ml. Unisexe. Premium.",
+      "price": 129000,
+      "original_price": null,
+      "category": "beaute",
+      "subcategory": "parfums",
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
+      ],
+      "stock": 22,
+      "featured": true,
+      "is_new": true,
+      "is_promo": false,
+      "specs": {
+        "volume": "100ml",
+        "type": "Eau de Parfum",
+        "gender": "Unisexe"
+      },
+      "created_at": "2025-12-23T04:31:18.126225+00:00",
+      "updated_at": "2025-12-23T04:31:18.126225+00:00"
+    }
+  ],
+  "users": [
+    {
+      "user_id": "user_1dc6be8833aa",
+      "email": "admin@lumina.sn",
+      "name": "Admin Lumina",
+      "phone": "+221 77 000 00 00",
+      "password": "$2b$12$/ycYhHUg3yrF68wOEjNIHu6wCpDHy/HA/1K6V5lG8arL1RpiHJZ2S",
+      "role": "admin",
+      "picture": null,
+      "created_at": "2025-12-23T04:31:18.126225+00:00"
+    },
+    {
+      "user_id": "user_2771c88dbaf6",
+      "email": "test_043350@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$uVm0gmOdOmVCOmFlsMnyqebpWilegi.YLnmXO3tnrQWcC0lt9KeK6",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-23T04:33:50.347544+00:00"
+    },
+    {
+      "user_id": "user_c4b88cf80bb2",
+      "email": "amadoubourydiouf@gmail.com",
+      "name": "amadou boury diouf",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocJ2gToktAj3d1py9KNF2NES4DHf2yWqj8jM7jjwyxQOgwqheVg_7A=s96-c",
+      "phone": null,
+      "password": null,
+      "role": "customer",
+      "created_at": "2025-12-23T04:48:15.196830+00:00"
+    },
+    {
+      "user_id": "user_a12567020211",
+      "email": "admin@yama.sn",
+      "name": "Admin YAMA+",
+      "phone": "+221770000000",
+      "password": "$2b$12$WahZAkKLzE3W7GcsVpMlde6gOaHe/TXWc4qvNnlvidgsnYad1pQ4e",
+      "role": "admin",
+      "picture": null,
+      "created_at": "2025-12-23T14:14:20.455542+00:00"
+    },
+    {
+      "user_id": "user_cee42190fcc1",
+      "email": "test_141541@test.com",
+      "name": "Test User",
+      "phone": "+221771234567",
+      "password": "$2b$12$W1zk.6Bkc0/Ub8oR9FkIc.Erkc79W73Mr6W2NVn96YETLV9J.D6ey",
+      "role": "customer",
+      "picture": null,
+      "created_at": "2025-12-23T14:15:41.726076+00:00"
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-F1215A06",
+      "user_id": "user_1dc6be8833aa",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-23T04:33:50.821662+00:00"
+    },
+    {
+      "items": [
+        {
+          "product_id": "prod_iphone15pro",
+          "name": "Test Product",
+          "price": 100000,
+          "quantity": 1,
+          "image": "test.jpg"
+        }
+      ],
+      "shipping": {
+        "full_name": "Test Customer",
+        "phone": "+221771234567",
+        "address": "123 Test Street",
+        "city": "Dakar",
+        "region": "Dakar",
+        "notes": "Test order"
+      },
+      "payment_method": "wave",
+      "subtotal": 100000,
+      "shipping_cost": 2500,
+      "total": 102500,
+      "order_id": "ORD-2C32A04F",
+      "user_id": "user_1dc6be8833aa",
+      "payment_status": "paid",
+      "order_status": "processing",
+      "created_at": "2025-12-23T14:15:42.247586+00:00"
+    }
+  ],
+  "newsletter": [
+    {
+      "subscriber_id": "sub_d223998a5676",
+      "email": "test@yama.sn",
+      "name": null,
+      "promo_code": "WELCOME7A4995",
+      "discount_percent": 10,
+      "promo_used": false,
+      "subscribed_at": "2025-12-23T04:59:52.898379+00:00",
+      "active": true
+    },
+    {
+      "subscriber_id": "sub_7b1cc0a604d5",
+      "email": "test@example.com",
+      "name": null,
+      "promo_code": "WELCOMEF508BE",
+      "discount_percent": 10,
+      "promo_used": false,
+      "subscribed_at": "2025-12-23T14:17:42.501904+00:00",
+      "active": true
+    }
+  ],
+  "wishlists": [
+    {
+      "user_id": "user_1dc6be8833aa",
+      "created_at": "2025-12-23T04:33:50.743699+00:00",
+      "items": []
+    }
+  ],
+  "contact_messages": [
+    {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "+221771234567",
+      "subject": "Test Message",
+      "message": "This is a test message from the API test suite.",
+      "message_id": "msg_fb51599f0024",
+      "created_at": "2025-12-23T04:33:50.878553+00:00",
+      "read": false
+    },
+    {
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "+221771234567",
+      "subject": "Test Message",
+      "message": "This is a test message from the API test suite.",
+      "message_id": "msg_bd1bf638f9b5",
+      "created_at": "2025-12-23T14:15:42.386733+00:00",
+      "read": false
+    }
+  ]
+}

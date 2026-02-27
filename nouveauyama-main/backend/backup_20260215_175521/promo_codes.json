@@ -1,0 +1,171 @@
+[
+  {
+    "promo_id": "promo_833f452d",
+    "code": "NOEL2024",
+    "discount_type": "percent",
+    "discount_value": 15,
+    "min_purchase": 50000,
+    "max_discount": null,
+    "categories": null,
+    "products": null,
+    "usage_limit": null,
+    "per_user_limit": 1,
+    "start_date": null,
+    "end_date": null,
+    "is_active": true,
+    "description": "Promotion de Noël - 15% de réduction",
+    "usage_count": 0,
+    "users_used": [],
+    "created_at": "2026-02-01T13:49:16.571618+00:00",
+    "created_by": "user_a12567020211"
+  },
+  {
+    "code": "SEMAINE06",
+    "created_at": "2026-02-04T17:15:08.795163+00:00",
+    "current_uses": 0,
+    "discount_percent": 20,
+    "expires_at": "2026-02-11T17:15:08.795153+00:00",
+    "max_uses": 1000,
+    "min_order": 15000
+  },
+  {
+    "code": "BIENVENUEE41F8C",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_36b37af21866",
+    "expires_at": "2026-03-07T05:56:41.200523+00:00",
+    "created_at": "2026-02-05T05:56:41.200529+00:00"
+  },
+  {
+    "code": "BIENVENUE00985D",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_8c34cb138e97",
+    "expires_at": "2026-03-07T05:57:48.426766+00:00",
+    "created_at": "2026-02-05T05:57:48.426773+00:00"
+  },
+  {
+    "code": "BIENVENUEDEC9B3",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_964dd8c1fe10",
+    "expires_at": "2026-03-07T06:05:01.056168+00:00",
+    "created_at": "2026-02-05T06:05:01.056173+00:00"
+  },
+  {
+    "code": "BIENVENUE4C418F",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_7b78d0a8881b",
+    "expires_at": "2026-03-07T15:35:01.272333+00:00",
+    "created_at": "2026-02-05T15:35:01.272339+00:00"
+  },
+  {
+    "code": "BIENVENUEDD4025",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_1001e7acc1c8",
+    "expires_at": "2026-03-07T15:35:01.543023+00:00",
+    "created_at": "2026-02-05T15:35:01.543029+00:00"
+  },
+  {
+    "code": "BIENVENUE5C0741",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_27a3d4d045b8",
+    "expires_at": "2026-03-07T15:35:04.216115+00:00",
+    "created_at": "2026-02-05T15:35:04.216121+00:00"
+  },
+  {
+    "code": "BIENVENUE62DE5A",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_de09f87f9e91",
+    "expires_at": "2026-03-07T15:35:27.364567+00:00",
+    "created_at": "2026-02-05T15:35:27.364573+00:00"
+  },
+  {
+    "code": "BIENVENUE9C3520",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_e10639b4bcc1",
+    "expires_at": "2026-03-07T15:35:27.625326+00:00",
+    "created_at": "2026-02-05T15:35:27.625332+00:00"
+  },
+  {
+    "code": "BIENVENUE7CD0B1",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_d7d2965a2966",
+    "expires_at": "2026-03-07T15:35:30.348258+00:00",
+    "created_at": "2026-02-05T15:35:30.348265+00:00"
+  },
+  {
+    "code": "BIENVENUEB49380",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_3628b3fc3b16",
+    "expires_at": "2026-03-07T17:55:16.572988+00:00",
+    "created_at": "2026-02-05T17:55:16.572994+00:00"
+  },
+  {
+    "code": "BIENVENUEAC7309",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_f34163be8691",
+    "expires_at": "2026-03-07T18:59:43.010550+00:00",
+    "created_at": "2026-02-05T18:59:43.010558+00:00"
+  },
+  {
+    "code": "BIENVENUE3DFA46",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_6a3137fe513c",
+    "expires_at": "2026-03-07T19:01:11.304599+00:00",
+    "created_at": "2026-02-05T19:01:11.304606+00:00"
+  },
+  {
+    "code": "BIENVENUEB59E45",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_f03b176c36af",
+    "expires_at": "2026-03-07T19:01:15.911043+00:00",
+    "created_at": "2026-02-05T19:01:15.911050+00:00"
+  },
+  {
+    "code": "BIENVENUE954057",
+    "discount_percent": 10,
+    "max_uses": 1,
+    "current_uses": 0,
+    "min_order": 20000,
+    "user_id": "user_07cc2c369c2f",
+    "expires_at": "2026-03-17T17:01:06.559084+00:00",
+    "created_at": "2026-02-15T17:01:06.559091+00:00"
+  }
+]
