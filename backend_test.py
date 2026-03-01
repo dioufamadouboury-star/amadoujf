@@ -73,7 +73,7 @@ class YAMAPlusAPITester:
             print(f"❌ Failed - Error: {str(e)}")
             return False, {}
 
-    def test_admin_login(self, email="admin@yama.sn", password="Admin123!"):
+    def test_admin_login(self, email="admin@yamaplus.com", password="Admin123!"):
         """Test admin login and get token"""
         print("\n" + "="*50)
         print("TESTING ADMIN LOGIN")
