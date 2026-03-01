@@ -5738,7 +5738,7 @@ async def initiate_paytech_payment(payment: PaymentRequest):
     
     # Get PayTech credentials
     api_key = os.environ.get('PAYTECH_API_KEY', '')
-    api_secret = os.environ.get('PAYTECH_API_SECRET', '')
+    api_secret = os.environ.get('PAYTECH_SECRET_KEY', '')
     env = os.environ.get('PAYTECH_ENV', 'test')
     
     if not api_key or api_key == 'votre_cle_api':
