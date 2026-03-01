@@ -9605,7 +9605,7 @@ async def check_all_images(user: User = Depends(require_admin)):
                     'severity': 'high'
                 })
                 has_issue = True
-            elif '.emergentagent.com' in img_url:
+            elif '.preview.' in img_url:
                 issues.append({
                     'product_id': product_id,
                     'name': name,
