@@ -9508,8 +9508,8 @@ async def fix_all_image_urls(user: User = Depends(require_admin)):
                     'new': new_url
                 })
             
-            # Pattern 2: Fix preview URLs (*.emergentagent.com)
-            preview_match = re.search(r'https?://[^/]+\.emergentagent\.com(/api/uploads/[^\s"\'<>]+)', img_url)
+            # Pattern 2: Fix preview URLs
+            preview_match = re.search(r'https?://[^/]+\.preview\.[^/]+(/api/uploads/[^\s"\'<>]+)', img_url)
             if preview_match and not prod_match:
                 new_url = preview_match.group(1)
                 product_fixed = True
