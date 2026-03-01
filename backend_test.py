@@ -215,6 +215,20 @@ class YAMAPlusAPITester:
             200
         )
 
+    def test_game_endpoints(self):
+        """Test game related endpoints"""
+        print("\n" + "="*50)
+        print("TESTING GAME ENDPOINTS")
+        print("="*50)
+        
+        # Test game config endpoint
+        self.run_test(
+            "Get Game Config",
+            "GET",
+            "api/game/config",
+            200
+        )
+
     def test_health_endpoints(self):
         """Test basic health/status endpoints"""
         print("\n" + "="*50)
