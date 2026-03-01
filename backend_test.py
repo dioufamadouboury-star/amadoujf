@@ -258,6 +258,7 @@ def main():
     tester.test_flash_sales()
     tester.test_cart_endpoints()
     tester.test_categories_endpoint()
+    tester.test_game_endpoints()
     tester.test_health_endpoints()
     
     # Print final results
