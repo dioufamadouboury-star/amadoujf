@@ -1089,7 +1089,7 @@ async def login(credentials: UserLogin, response: Response):
         "token": token
     }
 
-# Google OAuth Configuration - Direct (sans Emergent)
+# Google OAuth Configuration - Direct
 GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", "966683628684-al8bu5bd9bhp1ftrc0oat9fkua6smpfq.apps.googleusercontent.com")
 GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", "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")
 
