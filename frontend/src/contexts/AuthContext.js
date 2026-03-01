@@ -5,7 +5,7 @@ const AuthContext = createContext(null);
 
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
-// Google OAuth Configuration - Direct (sans Emergent)
+// Google OAuth Configuration - Direct
 const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || "966683628684-al8bu5bd9bhp1ftrc0oat9fkua6smpfq.apps.googleusercontent.com";
 
 export function AuthProvider({ children }) {
