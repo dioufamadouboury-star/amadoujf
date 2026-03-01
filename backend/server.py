@@ -9458,7 +9458,7 @@ async def fix_all_image_urls(user: User = Depends(require_admin)):
     
     Corrige:
     - URLs de production (groupeyamaplus.com) -> URLs relatives
-    - URLs de preview (*.emergentagent.com) -> URLs relatives  
+    - URLs de preview -> URLs relatives  
     - URLs vides ou invalides -> supprimées
     """
     import re
